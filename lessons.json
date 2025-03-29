@@ -1,1435 +1,2062 @@
 {
-    "Lesson 1": [
-        {
-            "question": "What is the print function in Python?",
-            "options": [
-                "A function to print output",
-                "A variable to store data",
-                "A loop to iterate over data",
-                "A conditional statement to make decisions"
-            ],
-            "answer": "A function to print output"
-        },
-        {
-            "question": "What is the purpose of the 'def' keyword in Python?",
-            "options": [
-                "To define a variable",
-                "To define a function",
-                "To define a class",
-                "To define a loop"
-            ],
-            "answer": "To define a function"
-        },
-        {
-            "question": "What is the output of the expression '5/2' in Python?",
-            "options": ["2", "2.5", "5", "10"],
-            "answer": "2.5"
-        },
-        {
-            "question": "What is the use of the 'split()' function in Python?",
-            "options": [
-                "To concatenate strings",
-                "To split a string into substrings",
-                "To find the length of a string",
-                "To convert a string to uppercase"
-            ],
-            "answer": "To split a string into substrings"
-        },
-        {
-            "question": "What is the purpose of the 'try-except' block in Python?",
-            "options": [
-                "To handle errors and exceptions",
-                "To define a function",
-                "To iterate over data",
-                "To make decisions"
-            ],
-            "answer": "To handle errors and exceptions"
-        },
-        {
-            "question": "Which of the following is a valid variable name in Python?",
-            "options": ["2var", "var_name", "var-name", "var name"],
-            "answer": "var_name"
-        },
-        {
-            "question": "What is the correct file extension for Python files?",
-            "options": [".p", ".py", ".pyc", ".pi"],
-            "answer": ".py"
-        },
-        {
-            "question": "Which data type is immutable in Python?",
-            "options": ["List", "Dictionary", "String", "Set"],
-            "answer": "String"
-        },
-        {
-            "question": "What does the 'len()' function do?",
-            "options": [
-                "Returns the number of characters in a string",
-                "Returns the number of elements in a list",
-                "Both A and B",
-                "Returns the size of memory allocated"
-            ],
-            "answer": "Both A and B"
-        },
-        {
-            "question": "Which symbol is used for comments in Python?",
-            "options": ["//", "/* */", "#", "--"],
-            "answer": "#"
-        },
-        {
-            "question": "What is a dynamically typed language?",
-            "options": [
-                "Type checking is done at runtime",
-                "Type checking is done at compile time",
-                "Variables must be declared before use",
-                "None of these"
-            ],
-            "answer": "Type checking is done at runtime"
-        },
-        {
-            "question": "How do you take user input in Python?",
-            "options": ["input()", "get()", "scan()", "read()"],
-            "answer": "input()"
-        },
-        {
-            "question": "What does the 'is' keyword check in Python?",
-            "options": ["Value equality", "Reference equality", "Type equality", "None of these"],
-            "answer": "Reference equality"
-        },
-        {
-            "question": "Which function is used to convert an integer to a string?",
-            "options": ["int()", "str()", "float()", "bool()"],
-            "answer": "str()"
-        },
-        {
-            "question": "How do you define a multi-line string in Python?",
-            "options": ["Using triple quotes", "Using double quotes", "Using backslash", "Using parentheses"],
-            "answer": "Using triple quotes"
-        },
-        {
-            "question": "Which function returns the type of a variable?",
-            "options": ["type()", "id()", "var()", "get()"],
-            "answer": "type()"
-        },
-        {
-            "question": "Which keyword is used to define a function in Python?",
-            "options": ["def", "func", "define", "lambda"],
-            "answer": "def"
-        },
-        {
-            "question": "Which function is used to round a number to a given precision?",
-            "options": ["round()", "ceil()", "floor()", "truncate()"],
-            "answer": "round()"
-        },
-        {
-            "question": "What is the default return value of a function that does not return anything?",
-            "options": ["None", "0", "False", "Undefined"],
-            "answer": "None"
-        },
-        {
-            "question": "What is the purpose of the 'import' keyword in Python?",
-            "options": ["To import a module", "To import a function", "To import a class", "To import a variable"],
-            "answer": "To import a module"
-        }
-    ],
-    "Lesson 2": [
-        {
-            "question": "What is the data type of the value 42?",
-            "options": ["int", "float", "str", "bool"],
-            "answer": "int"
-        },
-        {
-            "question": "What is the result of type(3.14)?",
-            "options": ["int", "float", "str", "list"],
-            "answer": "float"
-        },
-        {
-            "question": "Which of these is a mutable data type?",
-            "options": ["tuple", "string", "list", "int"],
-            "answer": "list"
-        },
-        {
-            "question": "What data type is used for True or False values?",
-            "options": ["int", "bool", "str", "float"],
-            "answer": "bool"
-        },
-        {
-            "question": "Which of these is an immutable data type?",
-            "options": ["list", "dictionary", "tuple", "set"],
-            "answer": "tuple"
-        },
-        {
-            "question": "How do you declare a dictionary in Python?",
-            "options": ["{}", "[]", "()", "<>"],
-            "answer": "{}"
-        },
-        {
-            "question": "What is the default data type returned by input()?",
-            "options": ["int", "str", "float", "bool"],
-            "answer": "str"
-        },
-        {
-            "question": "Which function is used to convert a string to an integer?",
-            "options": ["int()", "str()", "float()", "bool()"],
-            "answer": "int()"
-        },
-        {
-            "question": "What is the result of '5' + '3' in Python?",
-            "options": ["8", "53", "Error", "None"],
-            "answer": "53"
-        },
-        {
-            "question": "Which data type is used to store a collection of unique values?",
-            "options": ["list", "tuple", "set", "dictionary"],
-            "answer": "set"
-        },
-        {
-            "question": "What is the output of type({}) in Python?",
-            "options": ["set", "list", "dict", "tuple"],
-            "answer": "dict"
-        },
-        {
-            "question": "Which method is used to add an element to a list?",
-            "options": ["add()", "append()", "insert()", "extend()"],
-            "answer": "append()"
-        },
-        {
-            "question": "Which of these data types is unordered?",
-            "options": ["list", "tuple", "dictionary", "string"],
-            "answer": "dictionary"
-        },
-        {
-            "question": "What is the keyword used to define a tuple?",
-            "options": ["[]", "{}", "()", "<>"],
-            "answer": "()"
-        },
-        {
-            "question": "What is the output of bool(0)?",
-            "options": ["True", "False", "None", "Error"],
-            "answer": "False"
-        },
-        {
-            "question": "Which data type allows duplicate values?",
-            "options": ["set", "dictionary", "list", "tuple"],
-            "answer": "list"
-        },
-        {
-            "question": "Which of these is a sequence data type?",
-            "options": ["list", "set", "dictionary", "None"],
-            "answer": "list"
-        },
-        {
-            "question": "Which function is used to check the data type of a variable?",
-            "options": ["isinstance()", "type()", "check()", "gettype()"],
-            "answer": "type()"
-        },
-        {
-            "question": "What is the correct way to declare a set?",
-            "options": ["[]", "{}", "()", "set()"],
-            "answer": "set()"
-        },
-        {
-            "question": "Which data type is used for text in Python?",
-            "options": ["int", "float", "str", "bool"],
-            "answer": "str"
-        }
-    ],
-    "Lesson 3": [
-        {
-            "question": "What is the addition operator in Python?",
-            "options": ["+", "-", "*", "/"],
-            "answer": "+"
-        },
-        {
-            "question": "Which operator is used for exponentiation?",
-            "options": ["^", "**", "//", "%"],
-            "answer": "**"
-        },
-        {
-            "question": "What is the modulus operator used for?",
-            "options": ["Exponentiation", "Division", "Remainder", "Multiplication"],
-            "answer": "Remainder"
-        },
-        {
-            "question": "Which operator is used for floor division?",
-            "options": ["/", "//", "%", "**"],
-            "answer": "//"
-        },
-        {
-            "question": "Which of the following is a comparison operator?",
-            "options": ["=", "==", "+=", "*="],
-            "answer": "=="
-        },
-        {
-            "question": "What does the 'not' operator do?",
-            "options": [
-                "Negates a boolean expression",
-                "Performs bitwise NOT",
-                "Checks equality",
-                "None of the above"
-            ],
-            "answer": "Negates a boolean expression"
-        },
-        {
-            "question": "Which operator is used for logical AND?",
-            "options": ["&&", "||", "and", "or"],
-            "answer": "and"
-        },
-        {
-            "question": "Which operator is used to check membership?",
-            "options": ["in", "not in", "both A and B", "None of these"],
-            "answer": "both A and B"
-        },
-        {
-            "question": "Which bitwise operator is used for OR operation?",
-            "options": ["|", "&", "^", "~"],
-            "answer": "|"
-        },
-        {
-            "question": "Which assignment operator is used for addition and assignment?",
-            "options": ["+=", "-=", "*=", "/="],
-            "answer": "+="
-        },
-        {
-            "question": "What is the result of 3 * 3 ** 3?",
-            "options": ["27", "81", "729", "9"],
-            "answer": "81"
-        },
-        {
-            "question": "Which operator is used to compare object identity?",
-            "options": ["is", "==", "!=", "in"],
-            "answer": "is"
-        },
-        {
-            "question": "Which logical operator represents OR in Python?",
-            "options": ["or", "||", "|", "and"],
-            "answer": "or"
-        },
-        {
-            "question": "What does the '//' operator do?",
-            "options": ["Floor division", "Modulo", "Exponentiation", "Addition"],
-            "answer": "Floor division"
-        },
-        {
-            "question": "What is the purpose of the 'in' operator in Python?",
-            "options": [
-                "To check membership",
-                "To perform arithmetic operations",
-                "To compare values",
-                "To assign values"
-            ],
-            "answer": "To check membership"
-        },
-        {
-            "question": "Which operator is used for bitwise XOR operation?",
-            "options": ["^", "|", "&", "~"],
-            "answer": "^"
-        },
-        {
-            "question": "What is the purpose of the 'not in' operator in Python?",
-            "options": [
-                "To check membership",
-                "To check non-membership",
-                "To perform arithmetic operations",
-                "To compare values"
-            ],
-            "answer": "To check non-membership"
-        },
-        {
-            "question": "Which operator is used for bitwise AND operation?",
-            "options": ["&", "|", "^", "~"],
-            "answer": "&"
-        },
-        {
-            "question": "What is the purpose of the 'is not' operator in Python?",
-            "options": [
-                "To compare object identity",
-                "To compare object non-identity",
-                "To perform arithmetic operations",
-                "To compare values"
-            ],
-            "answer": "To compare object non-identity"
-        },
-        {
-            "question": "Which operator is used for bitwise NOT operation?",
-            "options": ["~", "|", "&", "^"],
-            "answer": "~"
-        }
-    ],
-    "Lesson 4": [
-        {
-            "question": "Which of the following is used to create a string in Python?",
-            "options": ["Single quotes", "Double quotes", "Triple quotes", "All of the above"],
-            "answer": "All of the above"
-        },
-        {
-            "question": "What is the output of 'Hello' + 'World'?",
-            "options": ["HelloWorld", "Hello World", "Hello+World", "Error"],
-            "answer": "HelloWorld"
-        },
-        {
-            "question": "Which method is used to convert a string to uppercase?",
-            "options": ["upper()", "lower()", "capitalize()", "title()"],
-            "answer": "upper()"
-        },
-        {
-            "question": "What does the method strip() do in Python?",
-            "options": [
-                "Removes spaces from both sides",
-                "Removes a specific character",
-                "Removes only trailing spaces",
-                "Removes only leading spaces"
-            ],
-            "answer": "Removes spaces from both sides"
-        },
-        {
-            "question": "Which function is used to find the length of a string?",
-            "options": ["size()", "count()", "len()", "length()"],
-            "answer": "len()"
-        },
-        {
-            "question": "How can you access the first character of a string in Python?",
-            "options": ["str[0]", "str(0)", "str.first()", "str.charAt(0)"],
-            "answer": "str[0]"
-        },
-        {
-            "question": "What does the method replace('l', 'x') do in 'Hello'?",
-            "options": ["Returns 'Hexxo'", "Returns 'Hello'", "Returns 'Hxxlo'", "Returns 'Hxllo'"],
-            "answer": "Returns 'Hexxo'"
-        },
-        {
-            "question": "Which operator is used to repeat a string multiple times?",
-            "options": ["*", "+", "-", "/"],
-            "answer": "*"
-        },
-        {
-            "question": "Which of the following is NOT a valid string method?",
-            "options": ["split()", "join()", "concat()", "find()"],
-            "answer": "concat()"
-        },
-        {
-            "question": "What will 'Python'.find('th') return?",
-            "options": ["2", "-1", "None", "Error"],
-            "answer": "2"
-        },
-        {
-            "question": "Which of the following can be used for type casting in Python?",
-            "options": ["int()", "str()", "float()", "All of the above"],
-            "answer": "All of the above"
-        },
-        {
-            "question": "What is the result of int(4.7)?",
-            "options": ["4", "5", "4.7", "Error"],
-            "answer": "4"
-        },
-        {
-            "question": "What is the result of str(10) + str(5)?",
-            "options": ["105", "15", "10+5", "Error"],
-            "answer": "105"
-        },
-        {
-            "question": "What will float('3.14') return?",
-            "options": ["3.14", "314", "Error", "None"],
-            "answer": "3.14"
-        },
-        {
-            "question": "Which function is used to convert a string into a list of words?",
-            "options": ["split()", "list()", "words()", "separate()"],
-            "answer": "split()"
-        },
-        {
-            "question": "What will '123'.isdigit() return?",
-            "options": ["True", "False", "None", "Error"],
-            "answer": "True"
-        },
-        {
-            "question": "What is the output of bool('')?",
-            "options": ["True", "False", "None", "Error"],
-            "answer": "False"
-        },
-        {
-            "question": "What does 'Python'.startswith('P') return?",
-            "options": ["True", "False", "None", "Error"],
-            "answer": "True"
-        },
-        {
-            "question": "What does the method capitalize() do?",
-            "options": [
-                "Capitalizes the first letter",
-                "Converts the whole string to uppercase",
-                "Reverses the string",
-                "Removes spaces"
-            ],
-            "answer": "Capitalizes the first letter"
-        }
-    ],
-    "lesson 5": [
-      {
-        "question": "What is control flow in Python?",
-            "options": ["The way the interpreter executes statements", "A type of loop", "A function for sorting data", "A debugging tool"],
-            "answer": "The way the interpreter executes statements"
-          },
-          {
-            "question": "Which statement is used for decision-making in Python?",
-            "options": ["if", "for", "while", "switch"],
-            "answer": "if"
-          },
-          {
-            "question": "What will be the output of the following code?\n\nif 5 > 3:\n    print('Yes')",
-            "options": ["Yes", "No", "Error", "Nothing"],
-            "answer": "Yes"
-          },
-          {
-            "question": "Which keyword is used to provide an alternative condition in an if statement?",
-            "options": ["elseif", "elif", "else if", "otherwise"],
-            "answer": "elif"
-          },
-          {
-            "question": "What is the purpose of the else statement in Python?",
-            "options": ["To define an alternative block if the condition is false", "To repeat a loop", "To declare a function", "To check equality"],
-            "answer": "To define an alternative block if the condition is false"
-          },
-          {
-            "question": "What will be the output of `if 0: print('Hello')`?",
-            "options": ["Hello", "0", "Error", "Nothing"],
-            "answer": "Nothing"
-          },
-          {
-            "question": "Which operator is used for comparison?",
-            "options": ["=", "==", "=>", ":="],
-            "answer": "=="
-          },
-          {
-            "question": "Which of the following is NOT a logical operator in Python?",
-            "options": ["and", "or", "not", "xor"],
-            "answer": "xor"
-          },
-          {
-            "question": "What will be the result of `True and False`?",
-            "options": ["True", "False", "Error", "None"],
-            "answer": "False"
-          },
-          {
-            "question": "Which loop is used when the number of iterations is unknown?",
-            "options": ["for", "while", "do-while", "repeat"],
-            "answer": "while"
-          },
-          {
-            "question": "What will be the output of the following code?\n\nfor i in range(3):\n    print(i)",
-            "options": ["1 2 3", "0 1 2", "0 1 2 3", "Error"],
-            "answer": "0 1 2"
-          },
-          {
-            "question": "What is the default step value in a range function?",
-            "options": ["0", "1", "-1", "2"],
-            "answer": "1"
-          },
-          {
-            "question": "Which statement is used to terminate a loop prematurely?",
-            "options": ["break", "continue", "return", "exit"],
-            "answer": "break"
-          },
-          {
-            "question": "Which statement is used to skip the current iteration of a loop?",
-            "options": ["break", "continue", "skip", "pass"],
-            "answer": "continue"
-          },
-          {
-            "question": "What is the output of `while False: print('Hello')`?",
-            "options": ["Hello", "False", "Error", "Nothing"],
-            "answer": "Nothing"
-          },
-          {
-            "question": "Which function is used to iterate over a sequence of numbers?",
-            "options": ["range()", "list()", "iter()", "count()"],
-            "answer": "range()"
-          },
-          {
-            "question": "Which loop executes at least once regardless of condition?",
-            "options": ["for", "while", "do-while", "None"],
-            "answer": "do-while"
-          },
-          {
-            "question": "What will be the output of `for i in range(2, 5): print(i)`?",
-            "options": ["1 2 3", "2 3 4", "2 3 4 5", "Error"],
-            "answer": "2 3 4"
-          },
-          {
-            "question": "Which statement is used when a loop block should not have any instructions?",
-            "options": ["skip", "continue", "pass", "break"],
-            "answer": "pass"
-          },
-          {
-            "question": "What does `while True:` do?",
-            "options": ["Executes once", "Runs indefinitely", "Returns an error", "Depends on the condition"],
-            "answer": "Runs indefinitely"
-          },
-          {
-            "question": "What is the correct syntax for a while loop?",
-            "options": ["while condition:", "while (condition) {}", "while: condition", "while (condition):"],
-            "answer": "while condition:"
-          },
-          {
-            "question": "Which keyword is used for an infinite loop in Python?",
-            "options": ["infinity", "forever", "while True", "loop"],
-            "answer": "while True"
-          },
-          {
-            "question": "What is the output of `if 'a' > 'b': print('Yes')`?",
-            "options": ["Yes", "No", "Error", "Nothing"],
-            "answer": "Nothing"
-          },
-          {
-            "question": "Which of the following is NOT a valid loop control statement?",
-            "options": ["break", "continue", "return", "stop"],
-            "answer": "stop"
-          }
-        ],
-
-       
-            "lesson 6": [
-              {
-                "question": "Which of the following is a mutable data structure in Python?",
-                "options": ["List", "Tuple", "String", "Set"],
-                "answer": "List"
-              },
-              {
-                "question": "What is the correct way to define a tuple?",
-                "options": ["(1, 2, 3)", "[1, 2, 3]", "{1, 2, 3}", "\"1, 2, 3\""],
-                "answer": "(1, 2, 3)"
-              },
-              {
-                "question": "Which of the following methods is used to add an element to a list?",
-                "options": ["append()", "insert()", "extend()", "All of the above"],
-                "answer": "All of the above"
-              },
-              {
-                "question": "What will be the output of the following code? tuple1 = (1, 2, 3); tuple1[0] = 10",
-                "options": ["(10, 2, 3)", "Error", "(1, 2, 3)", "None"],
-                "answer": "Error"
-              },
-              {
-                "question": "Which of the following is an immutable data structure?",
-                "options": ["List", "Tuple", "Dictionary", "Set"],
-                "answer": "Tuple"
-              },
-              {
-                "question": "How do you remove a specific key-value pair from a dictionary?",
-                "options": ["del dict[key]", "dict.remove(key)", "dict.pop(key)", "Both A and C"],
-                "answer": "Both A and C"
-              },
-              {
-                "question": "Which method is used to get all the keys in a dictionary?",
-                "options": ["dict.keys()", "dict.values()", "dict.items()", "dict.get_keys()"],
-                "answer": "dict.keys()"
-              },
-              {
-                "question": "How do you access the first element of a list `my_list`?",
-                "options": ["my_list[0]", "my_list(0)", "my_list{0}", "my_list.first()"],
-                "answer": "my_list[0]"
-              },
-              {
-                "question": "Which method is used to merge two lists?",
-                "options": ["append()", "extend()", "concat()", "merge()"],
-                "answer": "extend()"
-              },
-              {
-                "question": "What will be the output of `list(range(3))`?",
-                "options": ["[1, 2, 3]", "[0, 1, 2]", "[0, 1, 2, 3]", "Error"],
-                "answer": "[0, 1, 2]"
-              },
-              {
-                "question": "Which of the following can store duplicate values?",
-                "options": ["List", "Tuple", "Dictionary", "Both A and B"],
-                "answer": "Both A and B"
-              },
-              {
-                "question": "How do you check if a key exists in a dictionary?",
-                "options": ["'key' in dict", "dict.has_key('key')", "dict.exists('key')", "dict.contains('key')"],
-                "answer": "'key' in dict"
-              },
-              {
-                "question": "Which of the following is not a valid dictionary operation?",
-                "options": ["Adding a new key-value pair", "Updating a value", "Accessing an element by index", "Deleting a key"],
-                "answer": "Accessing an element by index"
-              },
-              {
-                "question": "Which method is used to get a value from a dictionary without an error if the key doesn’t exist?",
-                "options": ["dict.get(key)", "dict[key]", "dict.fetch(key)", "dict.value(key)"],
-                "answer": "dict.get(key)"
-              },
-              {
-                "question": "What will be the output of `len({1: 'a', 2: 'b', 3: 'c'})`?",
-                "options": ["3", "2", "1", "Error"],
-                "answer": "3"
-              },
-              {
-                "question": "Which of the following methods can be used to remove an item from a list by its value?",
-                "options": ["pop()", "remove()", "del", "discard()"],
-                "answer": "remove()"
-              },
-              {
-                "question": "Which data type is best for storing a collection of unique elements?",
-                "options": ["List", "Tuple", "Set", "Dictionary"],
-                "answer": "Set"
-              },
-              {
-                "question": "How can you convert a tuple into a list?",
-                "options": ["list(tuple)", "tuple.list()", "tuple.to_list()", "convert(tuple)"],
-                "answer": "list(tuple)"
-              },
-              {
-                "question": "Which of the following is a correct way to create an empty dictionary?",
-                "options": ["{}", "[]", "()", "set()"],
-                "answer": "{}"
-              },
-              {
-                "question": "What happens when you use the `clear()` method on a dictionary?",
-                "options": ["Deletes a specific key", "Removes all elements", "Raises an error", "Does nothing"],
-                "answer": "Removes all elements"
-              },
-              {
-                "question": "Which method returns a shallow copy of a dictionary?",
-                "options": ["copy()", "clone()", "replicate()", "duplicate()"],
-                "answer": "copy()"
-              },
-              {
-                "question": "What will be the output of `dict1 = {1: 'a', 2: 'b'}; print(dict1.get(3, 'Not Found'))`?",
-                "options": ["Error", "None", "Not Found", "3"],
-                "answer": "Not Found"
-              },
-              {
-                "question": "Which of the following is an incorrect way to declare a tuple?",
-                "options": ["(1, 2, 3)", "tuple([1, 2, 3])", "tuple = 1, 2, 3", "tuple(1, 2, 3)"],
-                "answer": "tuple(1, 2, 3)"
-              }
-        ],
-        
-            "lesson 7": [
-              {
-                "question": "Which of the following is a characteristic of a Python set?",
-                "options": ["Ordered", "Mutable", "Allows duplicate values", "Unordered"],
-                "answer": "Unordered"
-              },
-              {
-                "question": "How do you create an empty set in Python?",
-                "options": ["set()", "{}", "[]", "set([])"],
-                "answer": "set()"
-              },
-              {
-                "question": "What is the key difference between a set and a frozenset?",
-                "options": ["Frozenset is mutable, set is not", "Set is immutable, frozenset is mutable", "Frozenset is immutable, set is mutable", "Both are immutable"],
-                "answer": "Frozenset is immutable, set is mutable"
-              },
-              {
-                "question": "Which method is used to add an element to a set?",
-                "options": ["append()", "insert()", "add()", "extend()"],
-                "answer": "add()"
-              },
-              {
-                "question": "How do you remove an item from a set without raising an error if the item does not exist?",
-                "options": ["remove()", "discard()", "pop()", "del"],
-                "answer": "discard()"
-              },
-              {
-                "question": "Which of the following operations can be performed on a frozenset?",
-                "options": ["Adding elements", "Removing elements", "Set operations (union, intersection)", "Modifying elements"],
-                "answer": "Set operations (union, intersection)"
-              },
-              {
-                "question": "What will be the output of {1, 2, 3} | {2, 3, 4}?",
-                "options": ["{1, 2, 3}", "{1, 2, 3, 4}", "{2, 3}", "{4}"],
-                "answer": "{1, 2, 3, 4}"
-              },
-              {
-                "question": "Which of the following operations removes an element from a set?",
-                "options": ["remove()", "discard()", "pop()", "All of the above"],
-                "answer": "All of the above"
-              },
-              {
-                "question": "What happens when you try to add a duplicate element to a set?",
-                "options": ["It raises an error", "It adds the duplicate element", "The duplicate element is ignored", "It overwrites the existing value"],
-                "answer": "The duplicate element is ignored"
-              },
-              {
-                "question": "Which of the following is not a valid set operation?",
-                "options": ["Union", "Intersection", "Concatenation", "Difference"],
-                "answer": "Concatenation"
-              },
-              {
-                "question": "What does the garbage collector in Python do?",
-                "options": ["Deletes all unused variables", "Frees up memory by removing unreferenced objects", "Clears the entire memory", "Manages all object references"],
-                "answer": "Frees up memory by removing unreferenced objects"
-              },
-              {
-                "question": "Which module provides access to garbage collection functionality in Python?",
-                "options": ["sys", "os", "gc", "mem"],
-                "answer": "gc"
-              },
-              {
-                "question": "Which of the following is true about garbage collection in Python?",
-                "options": ["It runs manually only", "It cannot be disabled", "It uses reference counting", "It does not manage circular references"],
-                "answer": "It uses reference counting"
-              },
-              {
-                "question": "Which function is used to manually run garbage collection?",
-                "options": ["gc.run()", "gc.collect()", "gc.cleanup()", "gc.execute()"],
-                "answer": "gc.collect()"
-              },
-              {
-                "question": "What is the default behavior of Python’s garbage collector?",
-                "options": ["Deletes all objects after execution", "Uses automatic memory management", "Does not manage memory at all", "Only runs when manually triggered"],
-                "answer": "Uses automatic memory management"
-              }
-            ],
-            
-                "lesson 8": [
-                  {
-                    "question": "What is a module in Python?",
-                    "options": {
-                      "a": "A built-in function",
-                      "b": "A file containing Python code",
-                      "c": "A type of loop",
-                      "d": "A variable storage"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "Which keyword is used to import a module in Python?",
-                    "options": {
-                      "a": "import",
-                      "b": "include",
-                      "c": "require",
-                      "d": "module"
-                    },
-                    "answer": "a"
-                  },
-                  {
-                    "question": "What is the purpose of the `dir()` function?",
-                    "options": {
-                      "a": "Deletes a module",
-                      "b": "Lists all attributes of a module",
-                      "c": "Creates a new module",
-                      "d": "Loads a module"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "How do you import only the `sqrt` function from the `math` module?",
-                    "options": {
-                      "a": "import math.sqrt",
-                      "b": "from math import sqrt",
-                      "c": "import sqrt from math",
-                      "d": "math.sqrt()"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "What will `import random` do?",
-                    "options": {
-                      "a": "Import the entire Python library",
-                      "b": "Import the random module",
-                      "c": "Import only specific functions",
-                      "d": "Cause an error"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "Which module provides functions for interacting with the operating system?",
-                    "options": {
-                      "a": "sys",
-                      "b": "os",
-                      "c": "random",
-                      "d": "math"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "Which of the following is a built-in module in Python?",
-                    "options": {
-                      "a": "numpy",
-                      "b": "os",
-                      "c": "pandas",
-                      "d": "tensorflow"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "How can you alias a module while importing?",
-                    "options": {
-                      "a": "import module as alias",
-                      "b": "module alias import",
-                      "c": "alias module import",
-                      "d": "import as module"
-                    },
-                    "answer": "a"
-                  },
-                  {
-                    "question": "Which function returns the current working directory?",
-                    "options": {
-                      "a": "os.getcwd()",
-                      "b": "os.path()",
-                      "c": "sys.path()",
-                      "d": "os.cwd()"
-                    },
-                    "answer": "a"
-                  },
-                  {
-                    "question": "Which method is used to remove a file in Python?",
-                    "options": {
-                      "a": "os.delete()",
-                      "b": "os.remove()",
-                      "c": "os.rm()",
-                      "d": "sys.remove()"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "What is a function in Python?",
-                    "options": {
-                      "a": "A loop structure",
-                      "b": "A reusable block of code",
-                      "c": "A built-in module",
-                      "d": "An operator"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "Which keyword is used to define a function in Python?",
-                    "options": {
-                      "a": "function",
-                      "b": "def",
-                      "c": "define",
-                      "d": "func"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "What does a function return if no return statement is used?",
-                    "options": {
-                      "a": "None",
-                      "b": "0",
-                      "c": "An empty string",
-                      "d": "An error"
-                    },
-                    "answer": "a"
-                  },
-                  {
-                    "question": "How do you call a function named `my_function`?",
-                    "options": {
-                      "a": "call my_function()",
-                      "b": "my_function()",
-                      "c": "execute my_function",
-                      "d": "def my_function"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "Which of the following is a correct function definition?",
-                    "options": {
-                      "a": "def my_function:",
-                      "b": "function my_function():",
-                      "c": "def my_function():",
-                      "d": "define my_function()"
-                    },
-                    "answer": "c"
-                  },
-                  {
-                    "question": "What is the purpose of the `return` statement in a function?",
-                    "options": {
-                      "a": "Stops the function execution",
-                      "b": "Returns a value to the caller",
-                      "c": "Prints output",
-                      "d": "Defines a function"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "Which function is used to get the number of arguments passed to a function?",
-                    "options": {
-                      "a": "args.count()",
-                      "b": "len(args)",
-                      "c": "len()",
-                      "d": "sys.argv"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "What is the correct syntax for a function with default arguments?",
-                    "options": {
-                      "a": "def my_func(a, b=10):",
-                      "b": "def my_func(a=10, b):",
-                      "c": "my_func(a, b=10):",
-                      "d": "func my_func(a, b=10)"
-                    },
-                    "answer": "a"
-                  },
-                  {
-                    "question": "Which statement is true about functions in Python?",
-                    "options": {
-                      "a": "A function can return multiple values",
-                      "b": "Functions cannot be nested",
-                      "c": "Functions cannot have default arguments",
-                      "d": "Functions must return a value"
-                    },
-                    "answer": "a"
-                  },
-                  {
-                    "question": "What is a lambda function?",
-                    "options": {
-                      "a": "A function defined using `lambda` keyword",
-                      "b": "A recursive function",
-                      "c": "A module",
-                      "d": "A built-in function"
-                    },
-                    "answer": "a"
-                  },
-                  {
-                    "question": "Which of the following is a correct lambda function?",
-                    "options": {
-                      "a": "lambda x: x+2",
-                      "b": "def lambda x: x+2",
-                      "c": "lambda(x) { x+2 }",
-                      "d": "function lambda(x): x+2"
-                    },
-                    "answer": "a"
-                  },
-                  {
-                    "question": "How do you define an anonymous function in Python?",
-                    "options": {
-                      "a": "Using `def`",
-                      "b": "Using `lambda`",
-                      "c": "Using `func`",
-                      "d": "Using `anonymous`"
-                    },
-                    "answer": "b"
-                  },
-                  {
-                    "question": "Which function can execute another function passed as an argument?",
-                    "options": {
-                      "a": "exec()",
-                      "b": "eval()",
-                      "c": "map()",
-                      "d": "apply()"
-                    },
-                    "answer": "d"
-                  },
-                  {
-                    "question": "Which built-in function applies a function to all elements in an iterable?",
-                    "options": {
-                      "a": "apply()",
-                      "b": "map()",
-                      "c": "reduce()",
-                      "d": "filter()"
-                    },
-                    "answer": "b"
-                  }
-                ],
-                
-                    "lesson 9": [
-                      {
-                        "question": "What is the purpose of exception handling in Python?",
-                        "options": {
-                          "a": "To handle errors gracefully",
-                          "b": "To speed up the program",
-                          "c": "To avoid writing code",
-                          "d": "To define functions"
-                        },
-                        "answer": "a"
-                      },
-                      {
-                        "question": "Which keyword is used to handle exceptions in Python?",
-                        "options": {
-                          "a": "catch",
-                          "b": "handle",
-                          "c": "except",
-                          "d": "error"
-                        },
-                        "answer": "c"
-                      },
-                      {
-                        "question": "Which block is always executed, whether an exception occurs or not?",
-                        "options": {
-                          "a": "try",
-                          "b": "except",
-                          "c": "else",
-                          "d": "finally"
-                        },
-                        "answer": "d"
-                      },
-                      {
-                        "question": "What happens if an exception occurs in the try block?",
-                        "options": {
-                          "a": "The program stops immediately",
-                          "b": "Python executes the except block",
-                          "c": "The program ignores it",
-                          "d": "The program restarts"
-                        },
-                        "answer": "b"
-                      },
-                      {
-                        "question": "Which exception is raised when a number is divided by zero?",
-                        "options": {
-                          "a": "ZeroDivisionError",
-                          "b": "ValueError",
-                          "c": "TypeError",
-                          "d": "SyntaxError"
-                        },
-                        "answer": "a"
-                      },
-                      {
-                        "question": "What is the output of `print(1/0)`?",
-                        "options": {
-                          "a": "0",
-                          "b": "Infinity",
-                          "c": "ZeroDivisionError",
-                          "d": "1"
-                        },
-                        "answer": "c"
-                      },
-                      {
-                        "question": "Which statement is true about `try-except` blocks?",
-                        "options": {
-                          "a": "They prevent all errors",
-                          "b": "They handle exceptions and continue execution",
-                          "c": "They stop execution immediately",
-                          "d": "They ignore exceptions"
-                        },
-                        "answer": "b"
-                      },
-                      {
-                        "question": "Which block executes only when no exceptions are raised?",
-                        "options": {
-                          "a": "try",
-                          "b": "except",
-                          "c": "else",
-                          "d": "finally"
-                        },
-                        "answer": "c"
-                      },
-                      {
-                        "question": "How can you raise an exception manually in Python?",
-                        "options": {
-                          "a": "throw Exception()",
-                          "b": "raise Exception()",
-                          "c": "error Exception()",
-                          "d": "trigger Exception()"
-                        },
-                        "answer": "b"
-                      },
-                      {
-                        "question": "Which of the following is a built-in exception in Python?",
-                        "options": {
-                          "a": "FileNotFound",
-                          "b": "OutOfMemory",
-                          "c": "KeyboardInterrupt",
-                          "d": "MemoryCrash"
-                        },
-                        "answer": "c"
-                      },
-                      {
-                        "question": "What does the `finally` block do?",
-                        "options": {
-                          "a": "Executes only if there is an exception",
-                          "b": "Executes only if there is no exception",
-                          "c": "Executes always",
-                          "d": "Executes when an error occurs"
-                        },
-                        "answer": "c"
-                      },
-                      {
-                        "question": "What is the correct syntax for handling multiple exceptions?",
-                        "options": {
-                          "a": "except (TypeError, ValueError):",
-                          "b": "except TypeError, ValueError:",
-                          "c": "except: TypeError, ValueError",
-                          "d": "try TypeError, ValueError"
-                        },
-                        "answer": "a"
-                      },
-                      {
-                        "question": "Which exception occurs when trying to access a non-existent list index?",
-                        "options": {
-                          "a": "IndexError",
-                          "b": "KeyError",
-                          "c": "ValueError",
-                          "d": "TypeError"
-                        },
-                        "answer": "a"
-                      },
-                      {
-                        "question": "What is the base class for all exceptions in Python?",
-                        "options": {
-                          "a": "BaseException",
-                          "b": "Exception",
-                          "c": "Error",
-                          "d": "Throwable"
-                        },
-                        "answer": "a"
-                      },
-                      {
-                        "question": "What does the `assert` statement do?",
-                        "options": {
-                          "a": "Checks conditions and raises AssertionError if false",
-                          "b": "Prints an error message",
-                          "c": "Handles exceptions",
-                          "d": "Terminates the program"
-                        },
-                        "answer": "a"
-                      },
-                      {
-                        "question": "Which function can provide details of an exception?",
-                        "options": {
-                          "a": "sys.exception()",
-                          "b": "sys.exc_info()",
-                          "c": "traceback.details()",
-                          "d": "exception.info()"
-                        },
-                        "answer": "b"
-                      },
-                      {
-                        "question": "Which of the following exceptions is raised when an invalid type is used?",
-                        "options": {
-                          "a": "ValueError",
-                          "b": "IndexError",
-                          "c": "TypeError",
-                          "d": "SyntaxError"
-                        },
-                        "answer": "c"
-                      },
-                      {
-                        "question": "How can you catch all exceptions?",
-                        "options": {
-                          "a": "except Exception:",
-                          "b": "except:",
-                          "c": "except All:",
-                          "d": "except Any:"
-                        },
-                        "answer": "b"
-                      },
-                      {
-                        "question": "Which exception is raised for invalid operations on a dictionary?",
-                        "options": {
-                          "a": "KeyError",
-                          "b": "TypeError",
-                          "c": "NameError",
-                          "d": "IndexError"
-                        },
-                        "answer": "a"
-                      }
-                    ],
-                    
-                        "lesson 10": [
-                          {
-                            "question": "Which function is used to open a file in Python?",
-                            "options": {
-                              "a": "open()",
-                              "b": "file()",
-                              "c": "read()",
-                              "d": "write()"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "What mode should be used to read a file in Python?",
-                            "options": {
-                              "a": "'w'",
-                              "b": "'r'",
-                              "c": "'a'",
-                              "d": "'x'"
-                            },
-                            "answer": "b"
-                          },
-                          {
-                            "question": "Which method is used to read the entire contents of a file?",
-                            "options": {
-                              "a": "read()",
-                              "b": "readline()",
-                              "c": "readlines()",
-                              "d": "fetch()"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "Which mode is used to append data to an existing file?",
-                            "options": {
-                              "a": "'r'",
-                              "b": "'w'",
-                              "c": "'a'",
-                              "d": "'x'"
-                            },
-                            "answer": "c"
-                          },
-                          {
-                            "question": "What does 'rb' mode do when opening a file?",
-                            "options": {
-                              "a": "Reads the file as binary",
-                              "b": "Reads the file as text",
-                              "c": "Creates a new file",
-                              "d": "Appends data"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "Which statement is true about 'with open()'?",
-                            "options": {
-                              "a": "It automatically closes the file",
-                              "b": "It keeps the file open indefinitely",
-                              "c": "It prevents file access",
-                              "d": "It locks the file"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "What happens if you open a non-existent file in read mode?",
-                            "options": {
-                              "a": "A new file is created",
-                              "b": "An error occurs",
-                              "c": "The file opens normally",
-                              "d": "Nothing happens"
-                            },
-                            "answer": "b"
-                          },
-                          {
-                            "question": "Which function writes data to a file?",
-                            "options": {
-                              "a": "write()",
-                              "b": "read()",
-                              "c": "append()",
-                              "d": "store()"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "How can you read all lines from a file as a list?",
-                            "options": {
-                              "a": "readlines()",
-                              "b": "read()",
-                              "c": "readline()",
-                              "d": "fetchall()"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "What happens if a file is opened in 'w' mode and already exists?",
-                            "options": {
-                              "a": "The file is overwritten",
-                              "b": "An error occurs",
-                              "c": "The file is locked",
-                              "d": "The file is deleted"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "Which method moves the file pointer to a specific position?",
-                            "options": {
-                              "a": "seek()",
-                              "b": "tell()",
-                              "c": "move()",
-                              "d": "jump()"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "What does the 'tell()' function do?",
-                            "options": {
-                              "a": "Returns the current position of the file pointer",
-                              "b": "Moves the pointer",
-                              "c": "Closes the file",
-                              "d": "Reads the file"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "Which function closes an open file?",
-                            "options": {
-                              "a": "close()",
-                              "b": "end()",
-                              "c": "stop()",
-                              "d": "terminate()"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "How can you check if a file exists before opening it?",
-                            "options": {
-                              "a": "Use os.path.exists()",
-                              "b": "Try to open it",
-                              "c": "Use file.exist()",
-                              "d": "Check manually"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "What will 'file.seek(0)' do?",
-                            "options": {
-                              "a": "Move the pointer to the beginning",
-                              "b": "Move to the end",
-                              "c": "Move to the middle",
-                              "d": "Move one step forward"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "Which module is used for handling file paths?",
-                            "options": {
-                              "a": "os",
-                              "b": "sys",
-                              "c": "file",
-                              "d": "pathlib"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "Which of the following is not a valid file mode?",
-                            "options": {
-                              "a": "'rw'",
-                              "b": "'r+'",
-                              "c": "'a'",
-                              "d": "'wb'"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "What does 'a+' mode do?",
-                            "options": {
-                              "a": "Append and read",
-                              "b": "Only read",
-                              "c": "Only append",
-                              "d": "Write and read"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "Which method reads a single line from a file?",
-                            "options": {
-                              "a": "readline()",
-                              "b": "read()",
-                              "c": "readlines()",
-                              "d": "fetchline()"
-                            },
-                            "answer": "a"
-                          },
-                          {
-                            "question": "Which function removes a file?",
-                            "options": {
-                              "a": "os.remove()",
-                              "b": "delete()",
-                              "c": "file.remove()",
-                              "d": "unlink()"
-                            },
-                            "answer": "a"
-                          }
-                        ]
-                      
-                      
-                  
-                  
-              
-              
-          
-          
-          
-          
-      
-      
+  "Lesson 1": [
+    {
+      "question": "What is the print function in Python?",
+      "options": [
+        "A function to print output",
+        "A variable to store data",
+        "A loop to iterate over data",
+        "A conditional statement to make decisions"
+      ],
+      "answer": "A function to print output"
+    },
+    {
+      "question": "What is the purpose of the 'def' keyword in Python?",
+      "options": [
+        "To define a variable",
+        "To define a function",
+        "To define a class",
+        "To define a loop"
+      ],
+      "answer": "To define a function"
+    },
+    {
+      "question": "What is the output of the expression '5/2' in Python?",
+      "options": [
+        "2",
+        "2.5",
+        "5",
+        "10"
+      ],
+      "answer": "2.5"
+    },
+    {
+      "question": "What is the use of the 'split()' function in Python?",
+      "options": [
+        "To concatenate strings",
+        "To split a string into substrings",
+        "To find the length of a string",
+        "To convert a string to uppercase"
+      ],
+      "answer": "To split a string into substrings"
+    },
+    {
+      "question": "What is the purpose of the 'try-except' block in Python?",
+      "options": [
+        "To handle errors and exceptions",
+        "To define a function",
+        "To iterate over data",
+        "To make decisions"
+      ],
+      "answer": "To handle errors and exceptions"
+    },
+    {
+      "question": "Which of the following is a valid variable name in Python?",
+      "options": [
+        "2var",
+        "var_name",
+        "var-name",
+        "var name"
+      ],
+      "answer": "var_name"
+    },
+    {
+      "question": "What is the correct file extension for Python files?",
+      "options": [
+        ".p",
+        ".py",
+        ".pyc",
+        ".pi"
+      ],
+      "answer": ".py"
+    },
+    {
+      "question": "Which data type is immutable in Python?",
+      "options": [
+        "List",
+        "Dictionary",
+        "String",
+        "Set"
+      ],
+      "answer": "String"
+    },
+    {
+      "question": "What does the 'len()' function do?",
+      "options": [
+        "Returns the number of characters in a string",
+        "Returns the number of elements in a list",
+        "Both A and B",
+        "Returns the size of memory allocated"
+      ],
+      "answer": "Both A and B"
+    },
+    {
+      "question": "Which symbol is used for comments in Python?",
+      "options": [
+        "//",
+        "/* */",
+        "#",
+        "--"
+      ],
+      "answer": "#"
+    },
+    {
+      "question": "What is a dynamically typed language?",
+      "options": [
+        "Type checking is done at runtime",
+        "Type checking is done at compile time",
+        "Variables must be declared before use",
+        "None of these"
+      ],
+      "answer": "Type checking is done at runtime"
+    },
+    {
+      "question": "How do you take user input in Python?",
+      "options": [
+        "input()",
+        "get()",
+        "scan()",
+        "read()"
+      ],
+      "answer": "input()"
+    },
+    {
+      "question": "What does the 'is' keyword check in Python?",
+      "options": [
+        "Value equality",
+        "Reference equality",
+        "Type equality",
+        "None of these"
+      ],
+      "answer": "Reference equality"
+    },
+    {
+      "question": "Which function is used to convert an integer to a string?",
+      "options": [
+        "int()",
+        "str()",
+        "float()",
+        "bool()"
+      ],
+      "answer": "str()"
+    },
+    {
+      "question": "How do you define a multi-line string in Python?",
+      "options": [
+        "Using triple quotes",
+        "Using double quotes",
+        "Using backslash",
+        "Using parentheses"
+      ],
+      "answer": "Using triple quotes"
+    },
+    {
+      "question": "Which function returns the type of a variable?",
+      "options": [
+        "type()",
+        "id()",
+        "var()",
+        "get()"
+      ],
+      "answer": "type()"
+    },
+    {
+      "question": "Which keyword is used to define a function in Python?",
+      "options": [
+        "def",
+        "func",
+        "define",
+        "lambda"
+      ],
+      "answer": "def"
+    },
+    {
+      "question": "Which function is used to round a number to a given precision?",
+      "options": [
+        "round()",
+        "ceil()",
+        "floor()",
+        "truncate()"
+      ],
+      "answer": "round()"
+    },
+    {
+      "question": "What is the default return value of a function that does not return anything?",
+      "options": [
+        "None",
+        "0",
+        "False",
+        "Undefined"
+      ],
+      "answer": "None"
+    },
+    {
+      "question": "What is the purpose of the 'import' keyword in Python?",
+      "options": [
+        "To import a module",
+        "To import a function",
+        "To import a class",
+        "To import a variable"
+      ],
+      "answer": "To import a module"
+    }
+  ],
+  "Lesson 2": [
+    {
+      "question": "What is the data type of the value 42?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ],
+      "answer": "int"
+    },
+    {
+      "question": "What is the result of type(3.14)?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "list"
+      ],
+      "answer": "float"
+    },
+    {
+      "question": "Which of these is a mutable data type?",
+      "options": [
+        "tuple",
+        "string",
+        "list",
+        "int"
+      ],
+      "answer": "list"
+    },
+    {
+      "question": "What data type is used for True or False values?",
+      "options": [
+        "int",
+        "bool",
+        "str",
+        "float"
+      ],
+      "answer": "bool"
+    },
+    {
+      "question": "Which of these is an immutable data type?",
+      "options": [
+        "list",
+        "dictionary",
+        "tuple",
+        "set"
+      ],
+      "answer": "tuple"
+    },
+    {
+      "question": "How do you declare a dictionary in Python?",
+      "options": [
+        "{}",
+        "[]",
+        "()",
+        "<>"
+      ],
+      "answer": "{}"
+    },
+    {
+      "question": "What is the default data type returned by input()?",
+      "options": [
+        "int",
+        "str",
+        "float",
+        "bool"
+      ],
+      "answer": "str"
+    },
+    {
+      "question": "Which function is used to convert a string to an integer?",
+      "options": [
+        "int()",
+        "str()",
+        "float()",
+        "bool()"
+      ],
+      "answer": "int()"
+    },
+    {
+      "question": "What is the result of '5' + '3' in Python?",
+      "options": [
+        "8",
+        "53",
+        "Error",
+        "None"
+      ],
+      "answer": "53"
+    },
+    {
+      "question": "Which data type is used to store a collection of unique values?",
+      "options": [
+        "list",
+        "tuple",
+        "set",
+        "dictionary"
+      ],
+      "answer": "set"
+    },
+    {
+      "question": "What is the output of type({}) in Python?",
+      "options": [
+        "set",
+        "list",
+        "dict",
+        "tuple"
+      ],
+      "answer": "dict"
+    },
+    {
+      "question": "Which method is used to add an element to a list?",
+      "options": [
+        "add()",
+        "append()",
+        "insert()",
+        "extend()"
+      ],
+      "answer": "append()"
+    },
+    {
+      "question": "Which of these data types is unordered?",
+      "options": [
+        "list",
+        "tuple",
+        "dictionary",
+        "string"
+      ],
+      "answer": "dictionary"
+    },
+    {
+      "question": "What is the keyword used to define a tuple?",
+      "options": [
+        "[]",
+        "{}",
+        "()",
+        "<>"
+      ],
+      "answer": "()"
+    },
+    {
+      "question": "What is the output of bool(0)?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "Error"
+      ],
+      "answer": "False"
+    },
+    {
+      "question": "Which data type allows duplicate values?",
+      "options": [
+        "set",
+        "dictionary",
+        "list",
+        "tuple"
+      ],
+      "answer": "list"
+    },
+    {
+      "question": "Which of these is a sequence data type?",
+      "options": [
+        "list",
+        "set",
+        "dictionary",
+        "None"
+      ],
+      "answer": "list"
+    },
+    {
+      "question": "Which function is used to check the data type of a variable?",
+      "options": [
+        "isinstance()",
+        "type()",
+        "check()",
+        "gettype()"
+      ],
+      "answer": "type()"
+    },
+    {
+      "question": "What is the correct way to declare a set?",
+      "options": [
+        "[]",
+        "{}",
+        "()",
+        "set()"
+      ],
+      "answer": "set()"
+    },
+    {
+      "question": "Which data type is used for text in Python?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ],
+      "answer": "str"
+    }
+  ],
+  "Lesson 3": [
+    {
+      "question": "What is the addition operator in Python?",
+      "options": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "answer": "+"
+    },
+    {
+      "question": "Which operator is used for exponentiation?",
+      "options": [
+        "^",
+        "**",
+        "//",
+        "%"
+      ],
+      "answer": "**"
+    },
+    {
+      "question": "What is the modulus operator used for?",
+      "options": [
+        "Exponentiation",
+        "Division",
+        "Remainder",
+        "Multiplication"
+      ],
+      "answer": "Remainder"
+    },
+    {
+      "question": "Which operator is used for floor division?",
+      "options": [
+        "/",
+        "//",
+        "%",
+        "**"
+      ],
+      "answer": "//"
+    },
+    {
+      "question": "Which of the following is a comparison operator?",
+      "options": [
+        "=",
+        "==",
+        "+=",
+        "*="
+      ],
+      "answer": "=="
+    },
+    {
+      "question": "What does the 'not' operator do?",
+      "options": [
+        "Negates a boolean expression",
+        "Performs bitwise NOT",
+        "Checks equality",
+        "None of the above"
+      ],
+      "answer": "Negates a boolean expression"
+    },
+    {
+      "question": "Which operator is used for logical AND?",
+      "options": [
+        "&&",
+        "||",
+        "and",
+        "or"
+      ],
+      "answer": "and"
+    },
+    {
+      "question": "Which operator is used to check membership?",
+      "options": [
+        "in",
+        "not in",
+        "both A and B",
+        "None of these"
+      ],
+      "answer": "both A and B"
+    },
+    {
+      "question": "Which bitwise operator is used for OR operation?",
+      "options": [
+        "|",
+        "&",
+        "^",
+        "~"
+      ],
+      "answer": "|"
+    },
+    {
+      "question": "Which assignment operator is used for addition and assignment?",
+      "options": [
+        "+=",
+        "-=",
+        "*=",
+        "/="
+      ],
+      "answer": "+="
+    },
+    {
+      "question": "What is the result of 3 * 3 ** 3?",
+      "options": [
+        "27",
+        "81",
+        "729",
+        "9"
+      ],
+      "answer": "81"
+    },
+    {
+      "question": "Which operator is used to compare object identity?",
+      "options": [
+        "is",
+        "==",
+        "!=",
+        "in"
+      ],
+      "answer": "is"
+    },
+    {
+      "question": "Which logical operator represents OR in Python?",
+      "options": [
+        "or",
+        "||",
+        "|",
+        "and"
+      ],
+      "answer": "or"
+    },
+    {
+      "question": "What does the '//' operator do?",
+      "options": [
+        "Floor division",
+        "Modulo",
+        "Exponentiation",
+        "Addition"
+      ],
+      "answer": "Floor division"
+    },
+    {
+      "question": "What is the purpose of the 'in' operator in Python?",
+      "options": [
+        "To check membership",
+        "To perform arithmetic operations",
+        "To compare values",
+        "To assign values"
+      ],
+      "answer": "To check membership"
+    },
+    {
+      "question": "Which operator is used for bitwise XOR operation?",
+      "options": [
+        "^",
+        "|",
+        "&",
+        "~"
+      ],
+      "answer": "^"
+    },
+    {
+      "question": "What is the purpose of the 'not in' operator in Python?",
+      "options": [
+        "To check membership",
+        "To check non-membership",
+        "To perform arithmetic operations",
+        "To compare values"
+      ],
+      "answer": "To check non-membership"
+    },
+    {
+      "question": "Which operator is used for bitwise AND operation?",
+      "options": [
+        "&",
+        "|",
+        "^",
+        "~"
+      ],
+      "answer": "&"
+    },
+    {
+      "question": "What is the purpose of the 'is not' operator in Python?",
+      "options": [
+        "To compare object identity",
+        "To compare object non-identity",
+        "To perform arithmetic operations",
+        "To compare values"
+      ],
+      "answer": "To compare object non-identity"
+    },
+    {
+      "question": "Which operator is used for bitwise NOT operation?",
+      "options": [
+        "~",
+        "|",
+        "&",
+        "^"
+      ],
+      "answer": "~"
+    }
+  ],
+  "Lesson 4": [
+    {
+      "question": "Which of the following is used to create a string in Python?",
+      "options": [
+        "Single quotes",
+        "Double quotes",
+        "Triple quotes",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the output of 'Hello' + 'World'?",
+      "options": [
+        "HelloWorld",
+        "Hello World",
+        "Hello+World",
+        "Error"
+      ],
+      "answer": "HelloWorld"
+    },
+    {
+      "question": "Which method is used to convert a string to uppercase?",
+      "options": [
+        "upper()",
+        "lower()",
+        "capitalize()",
+        "title()"
+      ],
+      "answer": "upper()"
+    },
+    {
+      "question": "What does the method strip() do in Python?",
+      "options": [
+        "Removes spaces from both sides",
+        "Removes a specific character",
+        "Removes only trailing spaces",
+        "Removes only leading spaces"
+      ],
+      "answer": "Removes spaces from both sides"
+    },
+    {
+      "question": "Which function is used to find the length of a string?",
+      "options": [
+        "size()",
+        "count()",
+        "len()",
+        "length()"
+      ],
+      "answer": "len()"
+    },
+    {
+      "question": "How can you access the first character of a string in Python?",
+      "options": [
+        "str[0]",
+        "str(0)",
+        "str.first()",
+        "str.charAt(0)"
+      ],
+      "answer": "str[0]"
+    },
+    {
+      "question": "What does the method replace('l', 'x') do in 'Hello'?",
+      "options": [
+        "Returns 'Hexxo'",
+        "Returns 'Hello'",
+        "Returns 'Hxxlo'",
+        "Returns 'Hxllo'"
+      ],
+      "answer": "Returns 'Hexxo'"
+    },
+    {
+      "question": "Which operator is used to repeat a string multiple times?",
+      "options": [
+        "*",
+        "+",
+        "-",
+        "/"
+      ],
+      "answer": "*"
+    },
+    {
+      "question": "Which of the following is NOT a valid string method?",
+      "options": [
+        "split()",
+        "join()",
+        "concat()",
+        "find()"
+      ],
+      "answer": "concat()"
+    },
+    {
+      "question": "What will 'Python'.find('th') return?",
+      "options": [
+        "2",
+        "-1",
+        "None",
+        "Error"
+      ],
+      "answer": "2"
+    },
+    {
+      "question": "Which of the following can be used for type casting in Python?",
+      "options": [
+        "int()",
+        "str()",
+        "float()",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the result of int(4.7)?",
+      "options": [
+        "4",
+        "5",
+        "4.7",
+        "Error"
+      ],
+      "answer": "4"
+    },
+    {
+      "question": "What is the result of str(10) + str(5)?",
+      "options": [
+        "105",
+        "15",
+        "10+5",
+        "Error"
+      ],
+      "answer": "105"
+    },
+    {
+      "question": "What will float('3.14') return?",
+      "options": [
+        "3.14",
+        "314",
+        "Error",
+        "None"
+      ],
+      "answer": "3.14"
+    },
+    {
+      "question": "Which function is used to convert a string into a list of words?",
+      "options": [
+        "split()",
+        "list()",
+        "words()",
+        "separate()"
+      ],
+      "answer": "split()"
+    },
+    {
+      "question": "What will '123'.isdigit() return?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "Error"
+      ],
+      "answer": "True"
+    },
+    {
+      "question": "What is the output of bool('')?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "Error"
+      ],
+      "answer": "False"
+    },
+    {
+      "question": "What does 'Python'.startswith('P') return?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "Error"
+      ],
+      "answer": "True"
+    },
+    {
+      "question": "What does the method capitalize() do?",
+      "options": [
+        "Capitalizes the first letter",
+        "Converts the whole string to uppercase",
+        "Reverses the string",
+        "Removes spaces"
+      ],
+      "answer": "Capitalizes the first letter"
+    }
+  ],
+  "lesson 5": [
+    {
+      "question": "What is control flow in Python?",
+      "options": [
+        "The way the interpreter executes statements",
+        "A type of loop",
+        "A function for sorting data",
+        "A debugging tool"
+      ],
+      "answer": "The way the interpreter executes statements"
+    },
+    {
+      "question": "Which statement is used for decision-making in Python?",
+      "options": [
+        "if",
+        "for",
+        "while",
+        "switch"
+      ],
+      "answer": "if"
+    },
+    {
+      "question": "What will be the output of the following code?\n\nif 5 > 3:\n    print('Yes')",
+      "options": [
+        "Yes",
+        "No",
+        "Error",
+        "Nothing"
+      ],
+      "answer": "Yes"
+    },
+    {
+      "question": "Which keyword is used to provide an alternative condition in an if statement?",
+      "options": [
+        "elseif",
+        "elif",
+        "else if",
+        "otherwise"
+      ],
+      "answer": "elif"
+    },
+    {
+      "question": "What is the purpose of the else statement in Python?",
+      "options": [
+        "To define an alternative block if the condition is false",
+        "To repeat a loop",
+        "To declare a function",
+        "To check equality"
+      ],
+      "answer": "To define an alternative block if the condition is false"
+    },
+    {
+      "question": "What will be the output of `if 0: print('Hello')`?",
+      "options": [
+        "Hello",
+        "0",
+        "Error",
+        "Nothing"
+      ],
+      "answer": "Nothing"
+    },
+    {
+      "question": "Which operator is used for comparison?",
+      "options": [
+        "=",
+        "==",
+        "=>",
+        ":="
+      ],
+      "answer": "=="
+    },
+    {
+      "question": "Which of the following is NOT a logical operator in Python?",
+      "options": [
+        "and",
+        "or",
+        "not",
+        "xor"
+      ],
+      "answer": "xor"
+    },
+    {
+      "question": "What will be the result of `True and False`?",
+      "options": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "answer": "False"
+    },
+    {
+      "question": "Which loop is used when the number of iterations is unknown?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "repeat"
+      ],
+      "answer": "while"
+    },
+    {
+      "question": "What will be the output of the following code?\n\nfor i in range(3):\n    print(i)",
+      "options": [
+        "1 2 3",
+        "0 1 2",
+        "0 1 2 3",
+        "Error"
+      ],
+      "answer": "0 1 2"
+    },
+    {
+      "question": "What is the default step value in a range function?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "2"
+      ],
+      "answer": "1"
+    },
+    {
+      "question": "Which statement is used to terminate a loop prematurely?",
+      "options": [
+        "break",
+        "continue",
+        "return",
+        "exit"
+      ],
+      "answer": "break"
+    },
+    {
+      "question": "Which statement is used to skip the current iteration of a loop?",
+      "options": [
+        "break",
+        "continue",
+        "skip",
+        "pass"
+      ],
+      "answer": "continue"
+    },
+    {
+      "question": "What is the output of `while False: print('Hello')`?",
+      "options": [
+        "Hello",
+        "False",
+        "Error",
+        "Nothing"
+      ],
+      "answer": "Nothing"
+    },
+    {
+      "question": "Which function is used to iterate over a sequence of numbers?",
+      "options": [
+        "range()",
+        "list()",
+        "iter()",
+        "count()"
+      ],
+      "answer": "range()"
+    },
+    {
+      "question": "Which loop executes at least once regardless of condition?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "None"
+      ],
+      "answer": "do-while"
+    },
+    {
+      "question": "What will be the output of `for i in range(2, 5): print(i)`?",
+      "options": [
+        "1 2 3",
+        "2 3 4",
+        "2 3 4 5",
+        "Error"
+      ],
+      "answer": "2 3 4"
+    },
+    {
+      "question": "Which statement is used when a loop block should not have any instructions?",
+      "options": [
+        "skip",
+        "continue",
+        "pass",
+        "break"
+      ],
+      "answer": "pass"
+    },
+    {
+      "question": "What does `while True:` do?",
+      "options": [
+        "Executes once",
+        "Runs indefinitely",
+        "Returns an error",
+        "Depends on the condition"
+      ],
+      "answer": "Runs indefinitely"
+    },
+    {
+      "question": "What is the correct syntax for a while loop?",
+      "options": [
+        "while condition:",
+        "while (condition) {}",
+        "while: condition",
+        "while (condition):"
+      ],
+      "answer": "while condition:"
+    },
+    {
+      "question": "Which keyword is used for an infinite loop in Python?",
+      "options": [
+        "infinity",
+        "forever",
+        "while True",
+        "loop"
+      ],
+      "answer": "while True"
+    },
+    {
+      "question": "What is the output of `if 'a' > 'b': print('Yes')`?",
+      "options": [
+        "Yes",
+        "No",
+        "Error",
+        "Nothing"
+      ],
+      "answer": "Nothing"
+    },
+    {
+      "question": "Which of the following is NOT a valid loop control statement?",
+      "options": [
+        "break",
+        "continue",
+        "return",
+        "stop"
+      ],
+      "answer": "stop"
+    }
+  ],
+  "lesson 6": [
+    {
+      "question": "Which of the following is a mutable data structure in Python?",
+      "options": [
+        "List",
+        "Tuple",
+        "String",
+        "Set"
+      ],
+      "answer": "List"
+    },
+    {
+      "question": "What is the correct way to define a tuple?",
+      "options": [
+        "(1, 2, 3)",
+        "[1, 2, 3]",
+        "{1, 2, 3}",
+        "\"1, 2, 3\""
+      ],
+      "answer": "(1, 2, 3)"
+    },
+    {
+      "question": "Which of the following methods is used to add an element to a list?",
+      "options": [
+        "append()",
+        "insert()",
+        "extend()",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What will be the output of the following code? tuple1 = (1, 2, 3); tuple1[0] = 10",
+      "options": [
+        "(10, 2, 3)",
+        "Error",
+        "(1, 2, 3)",
+        "None"
+      ],
+      "answer": "Error"
+    },
+    {
+      "question": "Which of the following is an immutable data structure?",
+      "options": [
+        "List",
+        "Tuple",
+        "Dictionary",
+        "Set"
+      ],
+      "answer": "Tuple"
+    },
+    {
+      "question": "How do you remove a specific key-value pair from a dictionary?",
+      "options": [
+        "del dict[key]",
+        "dict.remove(key)",
+        "dict.pop(key)",
+        "Both A and C"
+      ],
+      "answer": "Both A and C"
+    },
+    {
+      "question": "Which method is used to get all the keys in a dictionary?",
+      "options": [
+        "dict.keys()",
+        "dict.values()",
+        "dict.items()",
+        "dict.get_keys()"
+      ],
+      "answer": "dict.keys()"
+    },
+    {
+      "question": "How do you access the first element of a list `my_list`?",
+      "options": [
+        "my_list[0]",
+        "my_list(0)",
+        "my_list{0}",
+        "my_list.first()"
+      ],
+      "answer": "my_list[0]"
+    },
+    {
+      "question": "Which method is used to merge two lists?",
+      "options": [
+        "append()",
+        "extend()",
+        "concat()",
+        "merge()"
+      ],
+      "answer": "extend()"
+    },
+    {
+      "question": "What will be the output of `list(range(3))`?",
+      "options": [
+        "[1, 2, 3]",
+        "[0, 1, 2]",
+        "[0, 1, 2, 3]",
+        "Error"
+      ],
+      "answer": "[0, 1, 2]"
+    },
+    {
+      "question": "Which of the following can store duplicate values?",
+      "options": [
+        "List",
+        "Tuple",
+        "Dictionary",
+        "Both A and B"
+      ],
+      "answer": "Both A and B"
+    },
+    {
+      "question": "How do you check if a key exists in a dictionary?",
+      "options": [
+        "'key' in dict",
+        "dict.has_key('key')",
+        "dict.exists('key')",
+        "dict.contains('key')"
+      ],
+      "answer": "'key' in dict"
+    },
+    {
+      "question": "Which of the following is not a valid dictionary operation?",
+      "options": [
+        "Adding a new key-value pair",
+        "Updating a value",
+        "Accessing an element by index",
+        "Deleting a key"
+      ],
+      "answer": "Accessing an element by index"
+    },
+    {
+      "question": "Which method is used to get a value from a dictionary without an error if the key doesn’t exist?",
+      "options": [
+        "dict.get(key)",
+        "dict[key]",
+        "dict.fetch(key)",
+        "dict.value(key)"
+      ],
+      "answer": "dict.get(key)"
+    },
+    {
+      "question": "What will be the output of `len({1: 'a', 2: 'b', 3: 'c'})`?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "Error"
+      ],
+      "answer": "3"
+    },
+    {
+      "question": "Which of the following methods can be used to remove an item from a list by its value?",
+      "options": [
+        "pop()",
+        "remove()",
+        "del",
+        "discard()"
+      ],
+      "answer": "remove()"
+    },
+    {
+      "question": "Which data type is best for storing a collection of unique elements?",
+      "options": [
+        "List",
+        "Tuple",
+        "Set",
+        "Dictionary"
+      ],
+      "answer": "Set"
+    },
+    {
+      "question": "How can you convert a tuple into a list?",
+      "options": [
+        "list(tuple)",
+        "tuple.list()",
+        "tuple.to_list()",
+        "convert(tuple)"
+      ],
+      "answer": "list(tuple)"
+    },
+    {
+      "question": "Which of the following is a correct way to create an empty dictionary?",
+      "options": [
+        "{}",
+        "[]",
+        "()",
+        "set()"
+      ],
+      "answer": "{}"
+    },
+    {
+      "question": "What happens when you use the `clear()` method on a dictionary?",
+      "options": [
+        "Deletes a specific key",
+        "Removes all elements",
+        "Raises an error",
+        "Does nothing"
+      ],
+      "answer": "Removes all elements"
+    },
+    {
+      "question": "Which method returns a shallow copy of a dictionary?",
+      "options": [
+        "copy()",
+        "clone()",
+        "replicate()",
+        "duplicate()"
+      ],
+      "answer": "copy()"
+    },
+    {
+      "question": "What will be the output of `dict1 = {1: 'a', 2: 'b'}; print(dict1.get(3, 'Not Found'))`?",
+      "options": [
+        "Error",
+        "None",
+        "Not Found",
+        "3"
+      ],
+      "answer": "Not Found"
+    },
+    {
+      "question": "Which of the following is an incorrect way to declare a tuple?",
+      "options": [
+        "(1, 2, 3)",
+        "tuple([1, 2, 3])",
+        "tuple = 1, 2, 3",
+        "tuple(1, 2, 3)"
+      ],
+      "answer": "tuple(1, 2, 3)"
+    }
+  ],
+  "lesson 7": [
+    {
+      "question": "Which of the following is a characteristic of a Python set?",
+      "options": [
+        "Ordered",
+        "Mutable",
+        "Allows duplicate values",
+        "Unordered"
+      ],
+      "answer": "Unordered"
+    },
+    {
+      "question": "How do you create an empty set in Python?",
+      "options": [
+        "set()",
+        "{}",
+        "[]",
+        "set([])"
+      ],
+      "answer": "set()"
+    },
+    {
+      "question": "What is the key difference between a set and a frozenset?",
+      "options": [
+        "Frozenset is mutable, set is not",
+        "Set is immutable, frozenset is mutable",
+        "Frozenset is immutable, set is mutable",
+        "Both are immutable"
+      ],
+      "answer": "Frozenset is immutable, set is mutable"
+    },
+    {
+      "question": "Which method is used to add an element to a set?",
+      "options": [
+        "append()",
+        "insert()",
+        "add()",
+        "extend()"
+      ],
+      "answer": "add()"
+    },
+    {
+      "question": "How do you remove an item from a set without raising an error if the item does not exist?",
+      "options": [
+        "remove()",
+        "discard()",
+        "pop()",
+        "del"
+      ],
+      "answer": "discard()"
+    },
+    {
+      "question": "Which of the following operations can be performed on a frozenset?",
+      "options": [
+        "Adding elements",
+        "Removing elements",
+        "Set operations (union, intersection)",
+        "Modifying elements"
+      ],
+      "answer": "Set operations (union, intersection)"
+    },
+    {
+      "question": "What will be the output of {1, 2, 3} | {2, 3, 4}?",
+      "options": [
+        "{1, 2, 3}",
+        "{1, 2, 3, 4}",
+        "{2, 3}",
+        "{4}"
+      ],
+      "answer": "{1, 2, 3, 4}"
+    },
+    {
+      "question": "Which of the following operations removes an element from a set?",
+      "options": [
+        "remove()",
+        "discard()",
+        "pop()",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What happens when you try to add a duplicate element to a set?",
+      "options": [
+        "It raises an error",
+        "It adds the duplicate element",
+        "The duplicate element is ignored",
+        "It overwrites the existing value"
+      ],
+      "answer": "The duplicate element is ignored"
+    },
+    {
+      "question": "Which of the following is not a valid set operation?",
+      "options": [
+        "Union",
+        "Intersection",
+        "Concatenation",
+        "Difference"
+      ],
+      "answer": "Concatenation"
+    },
+    {
+      "question": "What does the garbage collector in Python do?",
+      "options": [
+        "Deletes all unused variables",
+        "Frees up memory by removing unreferenced objects",
+        "Clears the entire memory",
+        "Manages all object references"
+      ],
+      "answer": "Frees up memory by removing unreferenced objects"
+    },
+    {
+      "question": "Which module provides access to garbage collection functionality in Python?",
+      "options": [
+        "sys",
+        "os",
+        "gc",
+        "mem"
+      ],
+      "answer": "gc"
+    },
+    {
+      "question": "Which of the following is true about garbage collection in Python?",
+      "options": [
+        "It runs manually only",
+        "It cannot be disabled",
+        "It uses reference counting",
+        "It does not manage circular references"
+      ],
+      "answer": "It uses reference counting"
+    },
+    {
+      "question": "Which function is used to manually run garbage collection?",
+      "options": [
+        "gc.run()",
+        "gc.collect()",
+        "gc.cleanup()",
+        "gc.execute()"
+      ],
+      "answer": "gc.collect()"
+    },
+    {
+      "question": "What is the default behavior of Python’s garbage collector?",
+      "options": [
+        "Deletes all objects after execution",
+        "Uses automatic memory management",
+        "Does not manage memory at all",
+        "Only runs when manually triggered"
+      ],
+      "answer": "Uses automatic memory management"
+    }
+  ],
+  "lesson 8": [
+    {
+      "question": "What is a module in Python?",
+      "options": [
+         "A built-in function",
+         "A file containing Python code",
+         "A type of loop",
+         "A variable storage"
+      ],
+      "answer": "A file containing Python code"
+    },
+    {
+      "question": "Which keyword is used to import a module in Python?",
+      "options": [
+        "import",
+        "include",
+        "require",
+        "module"
+      ],
+      "answer": "import"
+    },
+    {
+      "question": "What is the purpose of the `dir()` function?",
+      "options": [
+        "Deletes a module",
+        "Lists all attributes of a module",
+        "Creates a new module",
+        "Loads a module"
+      ],
+      "answer": "Lists all attributes of a module"
+    },
+    {
+      "question": "How do you import only the `sqrt` function from the `math` module?",
+      "options": [
+        "import math.sqrt",
+        "from math import sqrt",
+        "import sqrt from math",
+        "math.sqrt()"
+      ],
+      "answer": "from math import sqrt"
+    },
+    {
+      "question": "What will `import random` do?",
+      "options": [
+        "Import the entire Python library",
+        "Import the random module",
+        "Import only specific functions",
+        "Cause an error"
+      ],
+      "answer": "Import the random module"
+    },
+    {
+      "question": "Which module provides functions for interacting with the operating system?",
+      "options": [
+        "sys",
+        "os",
+        "random",
+        "math"
+      ],
+      "answer": "os"
+    },
+    {
+      "question": "Which of the following is a built-in module in Python?",
+      "options": [
+        "numpy",
+        "os",
+        "pandas",
+        "tensorflow"
+      ],
+      "answer": "os"
+    },
+    {
+      "question": "How can you alias a module while importing?",
+      "options": [
+        "import module as alias",
+        "module alias import",
+        "alias module import",
+        "import as module"
+      ],
+      "answer": "import module as alias"
+    },
+    {
+      "question": "Which function returns the current working directory?",
+      "options": [
+        "os.getcwd()",
+        "os.path()",
+        "sys.path()",
+        "os.cwd()"
+      ],
+      "answer": "os.getcwd()"
+    },
+    {
+      "question": "Which method is used to remove a file in Python?",
+      "options": [
+        "os.delete()",
+        "os.remove()",
+        "os.rm()",
+        "sys.remove()"
+      ],
+      "answer": "os.remove()"
+    },
+    {
+      "question": "What is a function in Python?",
+      "options": [
+        "A loop structure",
+        "A reusable block of code",
+        "A built-in module",
+        "An operator"
+      ],
+      "answer": "A reusable block of code"
+    },
+    {
+      "question": "Which keyword is used to define a function in Python?",
+      "options": [
+        "function",
+        "def",
+        "define",
+        "func"
+      ],
+      "answer": "def"
+    },
+    {
+      "question": "What does a function return if no return statement is used?",
+      "options": [
+        "None",
+        "0",
+        "An empty string",
+        "An error"
+      ],
+      "answer": "None"
+    },
+    {
+      "question": "How do you call a function named `my_function`?",
+      "options": [
+        "call my_function()",
+        "my_function()",
+        "execute my_function",
+        "def my_function"
+      ],
+      "answer": "my_function()"
+    },
+    {
+      "question": "Which of the following is a correct function definition?",
+      "options": [
+        "def my_function:",
+        "function my_function():",
+        "def my_function():",
+        "define my_function()"
+      ],
+      "answer": "def my_function():"
+    },
+    {
+      "question": "What is the purpose of the `return` statement in a function?",
+      "options": [
+        "Stops the function execution",
+        "Returns a value to the caller",
+        "Prints output",
+        "Defines a function"
+      ],
+      "answer": "Returns a value to the caller"
+    },
+    {
+      "question": "Which function is used to get the number of arguments passed to a function?",
+      "options": [
+        "args.count()",
+        "len(args)",
+        "len()",
+        "sys.argv"
+      ],
+      "answer": "len(args)"
+    },
+    {
+      "question": "What is the correct syntax for a function with default arguments?",
+      "options": [
+        "def my_func(a, b=10):",
+        "def my_func(a=10, b):",
+        "my_func(a, b=10):",
+        "func my_func(a, b=10)"
+      ],
+      "answer": "def my_func(a, b=10):"
+    },
+    {
+      "question": "Which statement is true about functions in Python?",
+      "options": [
+        "A function can return multiple values",
+        "Functions cannot be nested",
+        "Functions cannot have default arguments",
+        "Functions must return a value"
+      ],
+      "answer": "A function can return multiple values"
+    },
+    {
+      "question": "What is a lambda function?",
+      "options": [
+        "A function defined using `lambda` keyword",
+        "A recursive function",
+        "A module",
+        "A built-in function"
+      ],
+      "answer": "A function defined using `lambda` keyword"
+    },
+    {
+      "question": "Which of the following is a correct lambda function?",
+      "options": [
+        "lambda x: x+2",
+        "def lambda x: x+2",
+        "lambda(x) { x+2 }",
+        "function lambda(x): x+2"
+      ],
+      "answer": "lambda x: x+2"
+    },
+    {
+      "question": "How do you define an anonymous function in Python?",
+      "options": [
+        "Using `def`",
+        "Using `lambda`",
+        "Using `func`",
+        "Using `anonymous`"
+      ],
+      "answer": "Using `lambda`"
+    },
+    {
+      "question": "Which function can execute another function passed as an argument?",
+      "options": [
+        "exec()",
+        "eval()",
+        "map()",
+        "apply()"
+      ],
+      "answer": "apply()"
+    },
+    {
+      "question": "Which built-in function applies a function to all elements in an iterable?",
+      "options": [
+        "apply()",
+        "map()",
+        "reduce()",
+        "filter()"
+      ],
+      "answer": "map()"
+    }
+  ],
+  "lesson 9": [
+    {
+      "question": "What is the purpose of exception handling in Python?",
+      "options": [
+        "To handle errors gracefully",
+        "To speed up the program",
+        "To avoid writing code",
+        "To define functions"
+      ],
+      "answer": "To handle errors gracefully"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in Python?",
+      "options": [
+        "catch",
+        "handle",
+        "except",
+        "error"
+      ],
+      "answer": "except"
+    },
+    {
+      "question": "Which block is always executed, whether an exception occurs or not?",
+      "options": [
+        "try",
+        "except",
+        "else",
+        "finally"
+      ],
+      "answer": "finally"
+    },
+    {
+      "question": "What happens if an exception occurs in the try block?",
+      "options": [
+        "The program stops immediately",
+        "Python executes the except block",
+        "The program ignores it",
+        "The program restarts"
+      ],
+      "answer": "Python executes the except block"
+    },
+    {
+      "question": "Which exception is raised when a number is divided by zero?",
+      "options": [
+        "ZeroDivisionError",
+        "ValueError",
+        "TypeError",
+        "SyntaxError"
+      ],
+      "answer": "ZeroDivisionError"
+    },
+    {
+      "question": "What is the output of `print(1/0)`?",
+      "options": [
+        "0",
+        "Infinity",
+        "ZeroDivisionError",
+        "1"
+      ],
+      "answer": "ZeroDivisionError"
+    },
+    {
+      "question": "Which statement is true about `try-except` blocks?",
+      "options": [
+        "They prevent all errors",
+        "They handle exceptions and continue execution",
+        "They stop execution immediately",
+        "They ignore exceptions"
+      ],
+      "answer": "They handle exceptions and continue execution"
+    },
+    {
+      "question": "Which block executes only when no exceptions are raised?",
+      "options": [
+        "try",
+        "except",
+        "else",
+        "finally"
+      ],
+      "answer": "else"
+    },
+    {
+      "question": "How can you raise an exception manually in Python?",
+      "options": [
+        "throw Exception()",
+        "raise Exception()",
+        "error Exception()",
+        "trigger Exception()"
+      ],
+      "answer": "raise Exception()"
+    },
+    {
+      "question": "Which of the following is a built-in exception in Python?",
+      "options": [
+        "FileNotFound",
+        "OutOfMemory",
+        "KeyboardInterrupt",
+        "MemoryCrash"
+      ],
+      "answer": "KeyboardInterrupt"
+    },
+    {
+      "question": "What does the `finally` block do?",
+      "options": [
+        "Executes only if there is an exception",
+        "Executes only if there is no exception",
+        "Executes always",
+        "Executes when an error occurs"
+      ],
+      "answer": "Executes always"
+    },
+    {
+      "question": "What is the correct syntax for handling multiple exceptions?",
+      "options": [
+        "except (TypeError, ValueError):",
+        "except TypeError, ValueError:",
+        "except: TypeError, ValueError",
+        "try TypeError, ValueError"
+      ],
+      "answer": "except (TypeError, ValueError):"
+    },
+    {
+      "question": "Which exception occurs when trying to access a non-existent list index?",
+      "options": [
+        "IndexError",
+        "KeyError",
+        "ValueError",
+        "TypeError"
+      ],
+      "answer": "IndexError"
+    },
+    {
+      "question": "What is the base class for all exceptions in Python?",
+      "options": [
+        "BaseException",
+        "Exception",
+        "Error",
+        "Throwable"
+      ],
+      "answer": "BaseException"
+    },
+    {
+      "question": "What does the `assert` statement do?",
+      "options": [
+        "Checks conditions and raises AssertionError if false",
+        "Prints an error message",
+        "Handles exceptions",
+        "Terminates the program"
+      ],
+      "answer": "Checks conditions and raises AssertionError if false"
+    },
+    {
+      "question": "Which function can provide details of an exception?",
+      "options": [
+        "sys.exception()",
+        "sys.exc_info()",
+        "traceback.details()",
+        "exception.info()"
+      ],
+      "answer": "sys.exc_info()"
+    },
+    {
+      "question": "Which of the following exceptions is raised when an invalid type is used?",
+      "options": [
+        "ValueError",
+        "IndexError",
+        "TypeError",
+        "SyntaxError"
+      ],
+      "answer": "TypeError"
+    },
+    {
+      "question": "How can you catch all exceptions?",
+      "options": [
+        "except Exception:",
+        "except:",
+        "except All:",
+        "except Any:"
+      ],
+      "answer": "except:"
+    },
+    {
+      "question": "Which exception is raised for invalid operations on a dictionary?",
+      "options": [
+        "KeyError",
+        "TypeError",
+        "NameError",
+        "IndexError"
+      ],
+      "answer": "KeyError"
+    }
+  ],
+  "lesson 10": [
+    {
+      "question": "Which function is used to open a file in Python?",
+      "options": [
+        "open()",
+        "file()",
+        "read()",
+        "write()"
+      ],
+      "answer": "open()"
+    },
+    {
+      "question": "What mode should be used to read a file in Python?",
+      "options": [
+        "'w'",
+        "'r'",
+        "'a'",
+        "'x'"
+      ],
+      "answer": "'r'"
+    },
+    {
+      "question": "Which method is used to read the entire contents of a file?",
+      "options": [
+        "read()",
+        "readline()",
+        "readlines()",
+        "fetch()"
+      ],
+      "answer": "read()"
+    },
+    {
+      "question": "Which mode is used to append data to an existing file?",
+      "options": [
+        "'r'",
+        "'w'",
+        "'a'",
+        "'x'"
+      ],
+      "answer": "'a'"
+    },
+    {
+      "question": "What does 'rb' mode do when opening a file?",
+      "options": [
+        "Reads the file as binary",
+        "Reads the file as text",
+        "Creates a new file",
+        "Appends data"
+      ],
+      "answer": "Reads the file as binary"
+    },
+    {
+      "question": "Which statement is true about 'with open()'?",
+      "options": [
+        "It automatically closes the file",
+        "It keeps the file open indefinitely",
+        "It prevents file access",
+        "It locks the file"
+      ],
+      "answer": "It automatically closes the file"
+    },
+    {
+      "question": "What happens if you open a non-existent file in read mode?",
+      "options": [
+        "A new file is created",
+        "An error occurs",
+        "The file opens normally",
+        "Nothing happens"
+      ],
+      "answer": "An error occurs"
+    },
+    {
+      "question": "Which function writes data to a file?",
+      "options": [
+        "write()",
+        "read()",
+        "append()",
+        "store()"
+      ],
+      "answer": "write()"
+    },
+    {
+      "question": "How can you read all lines from a file as a list?",
+      "options": [
+        "readlines()",
+        "read()",
+        "readline()",
+        "fetchall()"
+      ],
+      "answer": "readlines()"
+    },
+    {
+      "question": "What happens if a file is opened in 'w' mode and already exists?",
+      "options": [
+        "The file is overwritten",
+        "An error occurs",
+        "The file is locked",
+        "The file is deleted"
+      ],
+      "answer": "The file is overwritten"
+    },
+    {
+      "question": "Which method moves the file pointer to a specific position?",
+      "options": [
+        "seek()",
+        "tell()",
+        "move()",
+        "jump()"
+      ],
+      "answer": "seek()"
+    },
+    {
+      "question": "What does the 'tell()' function do?",
+      "options": [
+        "Returns the current position of the file pointer",
+        "Moves the pointer",
+        "Closes the file",
+        "Reads the file"
+      ],
+      "answer": "Returns the current position of the file pointer"
+    },
+    {
+      "question": "Which function closes an open file?",
+      "options": [
+        "close()",
+        "end()",
+        "stop()",
+        "terminate()"
+      ],
+      "answer": "close()"
+    },
+    {
+      "question": "How can you check if a file exists before opening it?",
+      "options": [
+        "Use os.path.exists()",
+        "Try to open it",
+        "Use file.exist()",
+        "Check manually"
+      ],
+      "answer": "Use os.path.exists()"
+    },
+    {
+      "question": "What will 'file.seek(0)' do?",
+      "options": [
+        "Move the pointer to the beginning",
+        "Move to the end",
+        "Move to the middle",
+        "Move one step forward"
+      ],
+      "answer": "Move the pointer to the beginning"
+    },
+    {
+      "question": "Which module is used for handling file paths?",
+      "options": [
+        "os",
+        "sys",
+        "file",
+        "pathlib"
+      ],
+      "answer": "os"
+    },
+    {
+      "question": "Which of the following is not a valid file mode?",
+      "options": [
+        "'rw'",
+        "'r+'",
+        "'a'",
+        "'wb'"
+      ],
+      "answer": "'rw'"
+    },
+    {
+      "question": "What does 'a+' mode do?",
+      "options": [
+        "Append and read",
+        "Only read",
+        "Only append",
+        "Write and read"
+      ],
+      "answer": "Append and read"
+    },
+    {
+      "question": "Which method reads a single line from a file?",
+      "options": [
+        "readline()",
+        "read()",
+        "readlines()",
+        "fetchline()"
+      ],
+      "answer": "readline()"
+    },
+    {
+      "question": "Which function removes a file?",
+      "options": [
+        "os.remove()",
+        "delete()",
+        "file.remove()",
+        "unlink()"
+      ],
+      "answer": "os.remove()"
+    }
+  ]
 }
