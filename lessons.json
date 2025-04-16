@@ -1056,7 +1056,7 @@
         "List",
         "Tuple",
         "String",
-        "Set"
+        "Integer"
       ],
       "answer": "List"
     },
