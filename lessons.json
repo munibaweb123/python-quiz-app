@@ -607,6 +607,16 @@
   ],
   "Lesson 4": [
     {
+      "question": "What method is used to convert a string to lowercase in Python?",
+      "options": [
+        "lowercase()",
+        "toLower()",
+        "lower()",
+        "downcase()"
+      ],
+      "answer": "lower()"
+    },
+    {
       "question": "Which of the following is used to create a string in Python?",
       "options": [
         "Single quotes",
@@ -679,12 +689,12 @@
     {
       "question": "Which operator is used to repeat a string multiple times?",
       "options": [
-        "*",
-        "+",
-        "-",
-        "/"
+        "`*`",
+        "`+`",
+        "`-`",
+        "`/`"
       ],
-      "answer": "*"
+      "answer": "`*`"
     },
     {
       "question": "Which of the following is NOT a valid string method?",
