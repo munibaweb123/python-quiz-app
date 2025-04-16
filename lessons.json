@@ -95,10 +95,10 @@
       "options": [
         "//",
         "/* */",
-        "#",
+        "`#`",
         "--"
       ],
-      "answer": "#"
+      "answer": "`#`"
     },
     {
       "question": "What is a dynamically typed language?",
@@ -407,12 +407,12 @@
     {
       "question": "What is the addition operator in Python?",
       "options": [
-        "+",
-        "-",
-        "*",
-        "/"
+        "`+`",
+        "`-`",
+        "`*`",
+        "`/`"
       ],
-      "answer": "+"
+      "answer": "`+`"
     },
     {
       "question": "Which operator is used for exponentiation?",
