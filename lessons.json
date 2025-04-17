@@ -1286,7 +1286,7 @@
       "question": "Which of the following is a characteristic of a Python set?",
       "options": [
         "Ordered",
-        "Mutable",
+        "Immutable",
         "Allows duplicate values",
         "Unordered"
       ],
@@ -1381,6 +1381,56 @@
         "Difference"
       ],
       "answer": "Concatenation"
+    },
+    {
+      "question": "What is rehashing in the context of sets?",
+      "options": [
+        "Changing the hash value of an existing element",
+        "Recalculating the hash values of all elements when the set size exceeds a certain limit",
+        "Removing elements from the set",
+        "Adding new elements to the set"
+      ],
+      "answer": "Recalculating the hash values of all elements when the set size exceeds a certain limit"
+    },
+    {
+      "question": "What is the result of trying to add an object with a custom __hash__ method that returns the same value for different objects to a set?",
+      "options": [
+        "All objects are added successfully",
+        "Only one object is added, others are ignored",
+        "It raises a TypeError",
+        "It raises a ValueError"
+      ],
+      "answer": "Only one object is added, others are ignored"
+    },
+    {
+      "question": "Which of the following data types can be used as elements in a set?",
+      "options": [
+        "Lists",
+        "Dictionaries",
+        "Tuples",
+        "All of the above"
+      ],
+      "answer": "Tuples"
+    },
+    {
+      "question": "What happens if you try to add a mutable object (like a list) to a set?",
+      "options": [
+        "It is added successfully",
+        "It raises a TypeError",
+        "It is converted to a tuple",
+        "It is ignored"
+      ],
+      "answer": "It raises a TypeError"
+    },
+    {
+      "question": "What is the primary purpose of hashing in sets?",
+      "options": [
+        "To store elements in a sorted order",
+        "To allow for fast access and retrieval of elements",
+        "To ensure elements are unique",
+        "To allow for duplicate elements"
+      ],
+      "answer": "To allow for fast access and retrieval of elements"
     },
     {
       "question": "What does the garbage collector in Python do?",
