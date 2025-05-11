@@ -2021,8 +2021,9 @@
     {
       "question": "Which method moves the file pointer to a specific position?",
       "options": [
-        "seek()",
+       
         "tell()",
+        "seek()",
         "move()",
         "jump()"
       ],
@@ -2041,10 +2042,11 @@
     {
       "question": "Which function closes an open file?",
       "options": [
-        "close()",
+       
         "end()",
         "stop()",
-        "terminate()"
+        "terminate()",
+        "close()"
       ],
       "answer": "close()"
     },
@@ -2071,9 +2073,10 @@
     {
       "question": "Which module is used for handling file paths?",
       "options": [
-        "os",
+       
         "sys",
         "file",
+        "os",
         "pathlib"
       ],
       "answer": "os"
@@ -2081,8 +2084,9 @@
     {
       "question": "Which of the following is not a valid file mode?",
       "options": [
-        "'rw'",
+        
         "'r+'",
+        "'rw'",
         "'a'",
         "'wb'"
       ],
@@ -2101,19 +2105,21 @@
     {
       "question": "Which method reads a single line from a file?",
       "options": [
-        "readline()",
+        
         "read()",
         "readlines()",
-        "fetchline()"
+        "fetchline()",
+        "readline()"
       ],
       "answer": "readline()"
     },
     {
       "question": "Which function removes a file?",
       "options": [
-        "os.remove()",
+        
         "delete()",
         "file.remove()",
+        "os.remove()",
         "unlink()"
       ],
       "answer": "os.remove()"
