@@ -2124,5 +2124,803 @@
       ],
       "answer": "os.remove()"
     }
-  ]
+  ],
+  "Lesson 11": [
+  {
+    "question": "What is the purpose of the math module in Python?",
+    "options": [
+      "To perform string manipulations",
+      "To work with mathematical functions",
+      "To create graphical interfaces",
+      "To access databases"
+    ],
+    "answer": "To work with mathematical functions"
+  },
+  {
+    "question": "What is the output of math.sqrt(25)?",
+    "options": [
+      "5.0",
+      "25",
+      "2.5",
+      "None of the above"
+    ],
+    "answer": "5.0"
+  },
+  {
+    "question": "Which function returns the smallest integer greater than or equal to a number?",
+    "options": [
+      "math.floor()",
+      "math.round()",
+      "math.ceil()",
+      "math.trunc()"
+    ],
+    "answer": "math.ceil()"
+  },
+  {
+    "question": "What is the purpose of math.factorial(n)?",
+    "options": [
+      "Finds the square root of n",
+      "Calculates the factorial of n",
+      "Returns the log of n",
+      "Generates random number up to n"
+    ],
+    "answer": "Calculates the factorial of n"
+  },
+  {
+    "question": "What does math.pi represent?",
+    "options": [
+      "The value of 22/7",
+      "The value of π (3.14159...)",
+      "The square root of -1",
+      "Infinity"
+    ],
+    "answer": "The value of π (3.14159...)"
+  },
+  {
+    "question": "Which function is used to generate a random float between 0 and 1?",
+    "options": [
+      "random.randint()",
+      "random.choice()",
+      "random.random()",
+      "random.uniform()"
+    ],
+    "answer": "random.random()"
+  },
+  {
+    "question": "What does random.randint(1, 5) return?",
+    "options": [
+      "A random float between 1 and 5",
+      "A random integer from 1 to 4",
+      "A random integer from 1 to 5 inclusive",
+      "An error"
+    ],
+    "answer": "A random integer from 1 to 5 inclusive"
+  },
+  {
+    "question": "Which function randomly selects an element from a list?",
+    "options": [
+      "random.shuffle()",
+      "random.choice()",
+      "random.sample()",
+      "random.pick()"
+    ],
+    "answer": "random.choice()"
+  },
+  {
+    "question": "What does random.shuffle(my_list) do?",
+    "options": [
+      "Sorts the list",
+      "Reverses the list",
+      "Shuffles the list in place",
+      "Returns the first element of the list"
+    ],
+    "answer": "Shuffles the list in place"
+  },
+  {
+    "question": "Which module provides functions for working with dates and times?",
+    "options": [
+      "calendar",
+      "datetime",
+      "timeutils",
+      "math"
+    ],
+    "answer": "datetime"
+  },
+  {
+    "question": "What does datetime.datetime.now() return?",
+    "options": [
+      "The current date",
+      "The current time",
+      "The current date and time",
+      "Nothing"
+    ],
+    "answer": "The current date and time"
+  },
+  {
+    "question": "How can you get today’s date using the datetime module?",
+    "options": [
+      "datetime.now()",
+      "datetime.date.today()",
+      "datetime.time.today()",
+      "today.now()"
+    ],
+    "answer": "datetime.date.today()"
+  },
+  {
+    "question": "What is the use of timedelta in the datetime module?",
+    "options": [
+      "To measure CPU time",
+      "To add or subtract dates",
+      "To convert time zones",
+      "To pause the program"
+    ],
+    "answer": "To add or subtract dates"
+  },
+  {
+    "question": "What does datetime.strptime() do?",
+    "options": [
+      "Converts date to string",
+      "Parses a string into datetime object",
+      "Gets current timestamp",
+      "Returns system time"
+    ],
+    "answer": "Parses a string into datetime object"
+  },
+  {
+    "question": "What does calendar.month(2025, 5) return?",
+    "options": [
+      "Name of the month",
+      "List of days in the month",
+      "Formatted calendar for May 2025",
+      "Number of holidays"
+    ],
+    "answer": "Formatted calendar for May 2025"
+  },
+  {
+    "question": "How can you check if a year is a leap year?",
+    "options": [
+      "calendar.year(2024)",
+      "calendar.leapyear(2024)",
+      "calendar.isleap(2024)",
+      "calendar.checkLeap(2024)"
+    ],
+    "answer": "calendar.isleap(2024)"
+  },
+  {
+    "question": "Which function returns the weekday of the first day of a month and number of days in it?",
+    "options": [
+      "calendar.firstweekday()",
+      "calendar.weekday()",
+      "calendar.monthrange()",
+      "calendar.getmonth()"
+    ],
+    "answer": "calendar.monthrange()"
+  },
+  {
+    "question": "Which calendar function returns the full calendar of a year?",
+    "options": [
+      "calendar.year()",
+      "calendar.display()",
+      "calendar.show()",
+      "calendar.calendar()"
+    ],
+    "answer": "calendar.calendar()"
+  },
+  {
+    "question": "What is returned by random.sample([1, 2, 3, 4], 2)?",
+    "options": [
+      "Any two random elements from the list",
+      "Only the first two elements",
+      "A shuffled list",
+      "An error"
+    ],
+    "answer": "Any two random elements from the list"
+  },
+  {
+    "question": "What does math.pow(2, 3) return?",
+    "options": [
+      "8",
+      "6",
+      "9",
+      "5"
+    ],
+    "answer": "8"
+  },
+  {
+    "question": "What is the purpose of math.log10(1000)?",
+    "options": [
+      "Returns base-10 logarithm",
+      "Returns square root",
+      "Returns natural log",
+      "Returns 1000"
+    ],
+    "answer": "Returns base-10 logarithm"
+  },
+  {
+    "question": "What is the difference between math.floor() and math.trunc()?",
+    "options": [
+      "Both round up",
+      "floor() rounds down, trunc() removes decimal",
+      "trunc() rounds up",
+      "They are the same"
+    ],
+    "answer": "floor() rounds down, trunc() removes decimal"
+  },
+  {
+    "question": "Which function gets the name of the weekdays?",
+    "options": [
+      "calendar.day_names()",
+      "calendar.weekdays()",
+      "calendar.day_name",
+      "calendar.names()"
+    ],
+    "answer": "calendar.day_name"
+  },
+  {
+    "question": "How do you create a date object for Jan 1, 2025?",
+    "options": [
+      "date(2025, 1, 1)",
+      "datetime.date(2025, 1, 1)",
+      "datetime(2025, 1, 1)",
+      "calendar.date(2025, 1, 1)"
+    ],
+    "answer": "datetime.date(2025, 1, 1)"
+  },
+  {
+    "question": "What does random.uniform(1, 10) return?",
+    "options": [
+      "An integer between 1 and 10",
+      "A random float between 1 and 10",
+      "A list of numbers",
+      "A string"
+    ],
+    "answer": "A random float between 1 and 10"
+  }
+],
+"Lesson 12": [
+  {
+    "question": "What does OOP stand for in Python?",
+    "options": [
+      "Object Oriented Programming",
+      "Operational Object Programming",
+      "Only Oriented Programming",
+      "Object Optimized Performance"
+    ],
+    "answer": "Object Oriented Programming"
+  },
+  {
+    "question": "What is a class in Python?",
+    "options": [
+      "A template for creating objects",
+      "An instance of an object",
+      "A type of loop",
+      "A data type"
+    ],
+    "answer": "A template for creating objects"
+  },
+  {
+    "question": "What is an object in Python?",
+    "options": [
+      "A variable",
+      "An instance of a class",
+      "A function",
+      "A conditional"
+    ],
+    "answer": "An instance of a class"
+  },
+  {
+    "question": "Which keyword is used to define a class in Python?",
+    "options": [
+      "define",
+      "function",
+      "class",
+      "object"
+    ],
+    "answer": "class"
+  },
+  {
+    "question": "What is the purpose of the __init__ method?",
+    "options": [
+      "To define class attributes",
+      "To call another class",
+      "To initialize object properties",
+      "To destroy the object"
+    ],
+    "answer": "To initialize object properties"
+  },
+  {
+    "question": "How do you create an object from a class?",
+    "options": [
+      "object = ClassName",
+      "object = ClassName()",
+      "object.create(ClassName)",
+      "new ClassName"
+    ],
+    "answer": "object = ClassName()"
+  },
+  {
+    "question": "What is 'self' in a class method?",
+    "options": [
+      "A keyword to refer to the object itself",
+      "A global variable",
+      "An imported module",
+      "A built-in function"
+    ],
+    "answer": "A keyword to refer to the object itself"
+  },
+  {
+    "question": "Which method is automatically called when an object is created?",
+    "options": [
+      "__call__",
+      "__init__",
+      "__object__",
+      "__new__"
+    ],
+    "answer": "__init__"
+  },
+  {
+    "question": "Which of these is an example of encapsulation?",
+    "options": [
+      "Using a for loop inside a function",
+      "Writing many classes in a single file",
+      "Keeping data and methods in one class",
+      "Calling global variables"
+    ],
+    "answer": "Keeping data and methods in one class"
+  },
+  {
+    "question": "How do you define an attribute inside a class?",
+    "options": [
+      "self.attribute = value",
+      "class.attribute = value",
+      "set.attribute(value)",
+      "attribute = value"
+    ],
+    "answer": "self.attribute = value"
+  },
+  {
+    "question": "What is the output of this code?\n\nclass A:\n  def __init__(self):\n    self.name = 'AI'\n\na = A()\nprint(a.name)",
+    "options": [
+      "Error",
+      "self",
+      "AI",
+      "None"
+    ],
+    "answer": "AI"
+  },
+  {
+    "question": "Which of the following can be a method of a class?",
+    "options": [
+      "A variable",
+      "A function inside a class",
+      "A module",
+      "An import statement"
+    ],
+    "answer": "A function inside a class"
+  },
+  {
+    "question": "What happens if you forget to add 'self' in a method inside a class?",
+    "options": [
+      "The method works normally",
+      "You get a TypeError",
+      "It treats it as a static method",
+      "It raises an AttributeError"
+    ],
+    "answer": "You get a TypeError"
+  },
+  {
+    "question": "Which concept of OOP does '__init__' best represent?",
+    "options": [
+      "Encapsulation",
+      "Polymorphism",
+      "Constructor",
+      "Destructor"
+    ],
+    "answer": "Constructor"
+  },
+  {
+    "question": "Which of the following is NOT a principle of OOP?",
+    "options": [
+      "Encapsulation",
+      "Polymorphism",
+      "Compilation",
+      "Inheritance"
+    ],
+    "answer": "Compilation"
+  },
+  {
+    "question": "In OOP, what does the term 'class blueprint' mean?",
+    "options": [
+      "A function inside a class",
+      "The main function",
+      "The structure used to create objects",
+      "A file name"
+    ],
+    "answer": "The structure used to create objects"
+  },
+  {
+    "question": "What is the correct way to define a method in a class?",
+    "options": [
+      "def method[]:",
+      "function method():",
+      "def method(self):",
+      "method(self):"
+    ],
+    "answer": "def method(self):"
+  },
+  {
+    "question": "Which keyword is used to access properties within the class?",
+    "options": [
+      "this",
+      "self",
+      "my",
+      "obj"
+    ],
+    "answer": "self"
+  },
+  {
+    "question": "Can a class contain multiple methods?",
+    "options": [
+      "No",
+      "Only two",
+      "Yes",
+      "Only one"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "Which of these is a valid class name in Python?",
+    "options": [
+      "class1",
+      "_myclass",
+      "1class",
+      "my class"
+    ],
+    "answer": "_myclass"
+  },
+  {
+    "question": "What is the correct way to print an attribute of an object?",
+    "options": [
+      "print(object.attribute)",
+      "print(attribute.object)",
+      "object.attribute.print()",
+      "attribute.print(object)"
+    ],
+    "answer": "print(object.attribute)"
+  },
+  {
+    "question": "Where is 'self' passed automatically?",
+    "options": [
+      "To class attributes",
+      "To the main function",
+      "To every method in the class",
+      "To print statements"
+    ],
+    "answer": "To every method in the class"
+  },
+  {
+    "question": "What happens when you call a method on an object?",
+    "options": [
+      "Python executes the code inside the method",
+      "Python creates a new class",
+      "Python exits the program",
+      "Python defines a new variable"
+    ],
+    "answer": "Python executes the code inside the method"
+  },
+  {
+    "question": "Which method can be used to customize the string representation of an object?",
+    "options": [
+      "__print__",
+      "__str__",
+      "__repr__",
+      "__display__"
+    ],
+    "answer": "__str__"
+  },
+  {
+    "question": "Which function defines behavior of an object?",
+    "options": [
+      "Method",
+      "Attribute",
+      "Constructor",
+      "Instance"
+    ],
+    "answer": "Method"
+  },
+  {
+    "question": "What is true about class and object?",
+    "options": [
+      "A class is an instance of an object",
+      "An object is a blueprint",
+      "An object is an instance of a class",
+      "Both are the same"
+    ],
+    "answer": "An object is an instance of a class"
+  },
+  {
+    "question": "Which of the following best describes the 'init' method?",
+    "options": [
+      "It's the class destructor",
+      "It's the initializer/constructor",
+      "It's the final method",
+      "It's used to call other classes"
+    ],
+    "answer": "It's the initializer/constructor"
+  },
+  {
+    "question": "Which of these best demonstrates OOP's modularity?",
+    "options": [
+      "Having multiple functions in one file",
+      "Separating logic into classes and methods",
+      "Writing long if-else conditions",
+      "Using only global variables"
+    ],
+    "answer": "Separating logic into classes and methods"
+  },
+  {
+    "question": "What will the following code output?\n\nclass A:\n def __init__(self):\n  self.a = 10\n\nobj = A()\nprint(obj.a)",
+    "options": [
+      "10",
+      "0",
+      "None",
+      "Error"
+    ],
+    "answer": "10"
+  }
+],
+"Lesson 13": [
+  {
+    "question": "What are class variables in Python?",
+    "options": [
+      "Variables defined inside methods",
+      "Variables shared among all instances of a class",
+      "Variables defined outside the class",
+      "Private variables"
+    ],
+    "answer": "Variables shared among all instances of a class"
+  },
+  {
+    "question": "Where are class variables defined?",
+    "options": [
+      "Inside methods",
+      "In the constructor",
+      "Outside the class",
+      "Within the class but outside methods"
+    ],
+    "answer": "Within the class but outside methods"
+  },
+  {
+    "question": "What happens when you modify a class variable using an instance?",
+    "options": [
+      "The class variable is updated for all instances",
+      "A new instance variable is created",
+      "The original class variable is deleted",
+      "The class variable is renamed"
+    ],
+    "answer": "A new instance variable is created"
+  },
+  {
+    "question": "How should you modify a class variable for all instances?",
+    "options": [
+      "Using the instance name",
+      "Using the method name",
+      "Using the class name",
+      "Using 'self'"
+    ],
+    "answer": "Using the class name"
+  },
+  {
+    "question": "What is the correct way to access a class variable?",
+    "options": [
+      "object.variable_name",
+      "self.variable_name",
+      "ClassName.variable_name",
+      "this.variable_name"
+    ],
+    "answer": "ClassName.variable_name"
+  },
+  {
+    "question": "In the Bakery class, what kind of variable is 'type'?",
+    "options": [
+      "Instance variable",
+      "Static variable",
+      "Private variable",
+      "Class variable"
+    ],
+    "answer": "Class variable"
+  },
+  {
+    "question": "In the following code, what is 'flavor'?\n\nclass Bakery:\n  def __init__(self, flavor):\n    self.flavor = flavor",
+    "options": [
+      "A class method",
+      "A class variable",
+      "An instance variable",
+      "A static variable"
+    ],
+    "answer": "An instance variable"
+  },
+  {
+    "question": "What is the output of:\n\nclass Bakery:\n  type = \"cake\"\n\nprint(Bakery.type)",
+    "options": [
+      "cake",
+      "type",
+      "Bakery",
+      "Error"
+    ],
+    "answer": "cake"
+  },
+  {
+    "question": "If you change a class variable via an instance, does it affect other instances?",
+    "options": [
+      "Yes",
+      "No",
+      "Sometimes",
+      "Only if using 'self'"
+    ],
+    "answer": "No"
+  },
+  {
+    "question": "What keyword is typically used to reference a class inside a method?",
+    "options": [
+      "self",
+      "class",
+      "cls",
+      "this"
+    ],
+    "answer": "cls"
+  },
+  {
+    "question": "What is a static variable typically used for?",
+    "options": [
+      "Defining hidden properties",
+      "Storing instance-level information",
+      "Sharing data across all instances",
+      "Only for internal debugging"
+    ],
+    "answer": "Sharing data across all instances"
+  },
+  {
+    "question": "What does the following code output?\n\nclass Bakery:\n  type = \"cake\"\n\ncake1 = Bakery()\ncake1.type = \"cookie\"\nprint(Bakery.type)",
+    "options": [
+      "cookie",
+      "cake",
+      "None",
+      "Error"
+    ],
+    "answer": "cake"
+  },
+  {
+    "question": "How do you define a static/class variable inside a class?",
+    "options": [
+      "def var = value",
+      "self.var = value",
+      "var = value",
+      "class var = value"
+    ],
+    "answer": "var = value"
+  },
+  {
+    "question": "What does this code print?\n\nclass Bakery:\n  type = \"cake\"\ncake1 = Bakery()\ncake2 = Bakery()\nprint(cake2.type)",
+    "options": [
+      "cake",
+      "type",
+      "None",
+      "Error"
+    ],
+    "answer": "cake"
+  },
+  {
+    "question": "Which variable type allows each object to maintain its own value?",
+    "options": [
+      "Static variable",
+      "Class variable",
+      "Instance variable",
+      "Shared variable"
+    ],
+    "answer": "Instance variable"
+  },
+  {
+    "question": "What is the role of 'cls' in class methods?",
+    "options": [
+      "It refers to the object",
+      "It is the module name",
+      "It refers to the class itself",
+      "It is the constructor"
+    ],
+    "answer": "It refers to the class itself"
+  },
+  {
+    "question": "Which of the following best describes shadowing?",
+    "options": [
+      "Overwriting a method",
+      "Hiding a class variable with an instance variable",
+      "Using static variables",
+      "Overloading a constructor"
+    ],
+    "answer": "Hiding a class variable with an instance variable"
+  },
+  {
+    "question": "Which of these is NOT true about class variables?",
+    "options": [
+      "They are shared across all instances",
+      "They can be accessed via the class name",
+      "They are defined inside __init__",
+      "They are defined at class level"
+    ],
+    "answer": "They are defined inside __init__"
+  },
+  {
+    "question": "Which of the following is a class-level data member?",
+    "options": [
+      "Defined outside the class",
+      "Defined in the constructor",
+      "Defined using self",
+      "Defined using the class name"
+    ],
+    "answer": "Defined using the class name"
+  },
+  {
+    "question": "How can a class method be defined to access class variables?",
+    "options": [
+      "Using def method(self):",
+      "Using def method(cls):",
+      "Using staticmethod",
+      "Using init"
+    ],
+    "answer": "Using def method(cls):"
+  },
+  {
+    "question": "In Python, what is the main use of class and static variables?",
+    "options": [
+      "To initialize objects",
+      "To define private attributes",
+      "To share data across instances",
+      "To define global constants"
+    ],
+    "answer": "To share data across instances"
+  },
+  {
+    "question": "What will happen if you assign to a class variable using an instance?",
+    "options": [
+      "The class variable is updated",
+      "A new class variable is created",
+      "An instance variable is created, shadowing the class variable",
+      "All instances are deleted"
+    ],
+    "answer": "An instance variable is created, shadowing the class variable"
+  },
+  {
+    "question": "What will the following code print?\n\nclass A:\n  count = 0\n\na = A()\nb = A()\na.count = 1\nprint(b.count)",
+    "options": [
+      "1",
+      "0",
+      "None",
+      "Error"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "What is true about static methods?",
+    "options": [
+      "They can only access instance variables",
+      "They do not take 'self' or 'cls' as a parameter",
+      "They automatically take 'self' as parameter",
+      "They can access instance and class variables"
+    ],
+    "answer": "They do not take 'self' or 'cls' as a parameter"
+  },
+  {
+    "question": "Which decorator is used to define a static method?",
+    "options": [
+      "@staticmethod",
+      "@class",
+      "@self",
+      "@static"
+    ],
+    "answer": "@staticmethod"
+  }
+]
+
+
 }
