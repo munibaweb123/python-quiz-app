@@ -2920,7 +2920,260 @@
     ],
     "answer": "@staticmethod"
   }
+],
+"Lesson 14": [
+  {
+    "question": "What is a metaclass in Python?",
+    "options": [
+      "A class used to define decorators",
+      "A class that creates classes",
+      "A built-in Python function",
+      "A subclass of a method"
+    ],
+    "answer": "A class that creates classes"
+  },
+  {
+    "question": "What is the default metaclass in Python?",
+    "options": [
+      "object",
+      "class",
+      "meta",
+      "type"
+    ],
+    "answer": "type"
+  },
+  {
+    "question": "How are classes related to metaclasses in Python?",
+    "options": [
+      "Classes inherit from metaclasses",
+      "Classes are instances of metaclasses",
+      "Metaclasses are instances of classes",
+      "Metaclasses inherit from classes"
+    ],
+    "answer": "Classes are instances of metaclasses"
+  },
+  {
+    "question": "Which function is overridden when customizing metaclass behavior?",
+    "options": [
+      "__init__",
+      "__str__",
+      "__new__",
+      "__call__"
+    ],
+    "answer": "__new__"
+  },
+  {
+    "question": "What does the following line do?\nDog = type('Dog', (), {})",
+    "options": [
+      "Creates an object",
+      "Creates a new function",
+      "Creates a new class named Dog",
+      "Instantiates a Dog object"
+    ],
+    "answer": "Creates a new class named Dog"
+  },
+  {
+    "question": "How do you specify a metaclass in a class?",
+    "options": [
+      "with metaclass = MetaClass",
+      "class MyClass(meta=MetaClass):",
+      "class MyClass(metaclass=MetaClass):",
+      "use MetaClass as MyClass"
+    ],
+    "answer": "class MyClass(metaclass=MetaClass):"
+  },
+  {
+    "question": "Which method is used to control class creation in a metaclass?",
+    "options": [
+      "__init__",
+      "__call__",
+      "__new__",
+      "__build__"
+    ],
+    "answer": "__new__"
+  },
+  {
+    "question": "What can metaclasses be used for?",
+    "options": [
+      "Controlling object initialization",
+      "Validating instance values",
+      "Controlling class creation",
+      "None of the above"
+    ],
+    "answer": "Controlling class creation"
+  },
+  {
+    "question": "Which of the following is a real-world use case of metaclasses?",
+    "options": [
+      "Debugging runtime errors",
+      "Decorating functions",
+      "ORMs and Singleton pattern",
+      "Handling exceptions"
+    ],
+    "answer": "ORMs and Singleton pattern"
+  },
+  {
+    "question": "What is enforced in the example using EnforceHelloMeta?",
+    "options": [
+      "Classes must inherit from object",
+      "Instances must call say_hello",
+      "Classes must implement say_hello and start with 'A'",
+      "None of the above"
+    ],
+    "answer": "Classes must implement say_hello and start with 'A'"
+  },
+  {
+    "question": "Which Python module provides `dataclass`?",
+    "options": [
+      "typing",
+      "json",
+      "dataclasses",
+      "collections"
+    ],
+    "answer": "dataclasses"
+  },
+  {
+    "question": "What does the @dataclass decorator do?",
+    "options": [
+      "Creates a metaclass",
+      "Creates database tables",
+      "Automatically adds special methods like __init__ and __repr__",
+      "Creates a dictionary"
+    ],
+    "answer": "Automatically adds special methods like __init__ and __repr__"
+  },
+  {
+    "question": "What is one key benefit of using dataclasses?",
+    "options": [
+      "Inheritance is not needed",
+      "Faster execution",
+      "Reduces boilerplate code",
+      "Automatic GUI generation"
+    ],
+    "answer": "Reduces boilerplate code"
+  },
+  {
+    "question": "Which of the following is required to use dataclasses?",
+    "options": [
+      "Inherit from DataClass",
+      "Use @dataclass decorator",
+      "Import from typing",
+      "Use static methods"
+    ],
+    "answer": "Use @dataclass decorator"
+  },
+  {
+    "question": "In a dataclass, what is the default value of a field if not specified?",
+    "options": [
+      "None",
+      "0",
+      "Empty string",
+      "Raises an error"
+    ],
+    "answer": "None"
+  },
+  {
+    "question": "What is the purpose of `__repr__` in dataclasses?",
+    "options": [
+      "Handles arithmetic operations",
+      "Provides a string representation",
+      "Initializes class variables",
+      "Sorts objects"
+    ],
+    "answer": "Provides a string representation"
+  },
+  {
+    "question": "Which of the following is true about dataclasses?",
+    "options": [
+      "They can't have methods",
+      "They are immutable by default",
+      "They reduce manual implementation of methods",
+      "They are slower than regular classes"
+    ],
+    "answer": "They reduce manual implementation of methods"
+  },
+  {
+    "question": "Can dataclasses have default values for attributes?",
+    "options": [
+      "Yes, always",
+      "Only for integers",
+      "No, all fields must be required",
+      "Only in Python 3.11+"
+    ],
+    "answer": "Yes, always"
+  },
+  {
+    "question": "What does `field(default=...)` allow in dataclasses?",
+    "options": [
+      "Declaring private attributes",
+      "Controlling dataclass instantiation",
+      "Setting default values for fields",
+      "Registering fields in metaclass"
+    ],
+    "answer": "Setting default values for fields"
+  },
+  {
+    "question": "What will `@dataclass(frozen=True)` do?",
+    "options": [
+      "Make class methods static",
+      "Make the class immutable",
+      "Prevent subclassing",
+      "Freeze method parameters"
+    ],
+    "answer": "Make the class immutable"
+  },
+  {
+    "question": "What is the use of `__eq__` in dataclasses?",
+    "options": [
+      "Sorts the fields",
+      "Returns string representation",
+      "Checks object equality",
+      "Creates a new object"
+    ],
+    "answer": "Checks object equality"
+  },
+  {
+    "question": "How do you import dataclass in Python?",
+    "options": [
+      "from classlib import dataclass",
+      "import dataclass",
+      "from dataclasses import dataclass",
+      "include dataclass"
+    ],
+    "answer": "from dataclasses import dataclass"
+  },
+  {
+    "question": "Which is an incorrect usage of dataclass?",
+    "options": [
+      "@dataclass\nclass A:\n    x: int",
+      "@dataclass()\nclass A:\n    def __init__(self): pass",
+      "@dataclass(frozen=True)",
+      "@dataclass\nclass A:\n    x = 10"
+    ],
+    "answer": "@dataclass()\nclass A:\n    def __init__(self): pass"
+  },
+  {
+    "question": "Which method does a metaclass override to change class creation behavior?",
+    "options": [
+      "__init__",
+      "__repr__",
+      "__new__",
+      "__dict__"
+    ],
+    "answer": "__new__"
+  },
+  {
+    "question": "How can metaclasses help in API validation?",
+    "options": [
+      "By checking the method arguments",
+      "By changing data types at runtime",
+      "By enforcing rules during class creation",
+      "By blocking decorators"
+    ],
+    "answer": "By enforcing rules during class creation"
+  }
 ]
+
 
 
 }
